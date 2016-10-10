@@ -1,0 +1,25 @@
+[29-Sep-2016 17:17:49 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/proyecto_v3/utils/upload.php on line 122
+[29-Sep-2016 17:17:49 UTC] PHP Stack trace:
+[29-Sep-2016 17:17:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[29-Sep-2016 17:17:49 UTC] PHP   2. upload_files() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:36
+[29-Sep-2016 17:17:49 UTC] PHP   3. log() /home/ubuntu/workspace/proyecto_v3/utils/upload.php:122
+[03-Oct-2016 19:12:31 UTC] PHP Warning:  move_uploaded_file(media/215047078-1025640568-flowers.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_v3/utils/upload.php on line 92
+[03-Oct-2016 19:12:31 UTC] PHP Stack trace:
+[03-Oct-2016 19:12:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[03-Oct-2016 19:12:31 UTC] PHP   2. upload_files() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:36
+[03-Oct-2016 19:12:31 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/proyecto_v3/utils/upload.php:92
+[03-Oct-2016 19:12:31 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php0vBT0J' to 'media/215047078-1025640568-flowers.png' in /home/ubuntu/workspace/proyecto_v3/utils/upload.php on line 92
+[03-Oct-2016 19:12:31 UTC] PHP Stack trace:
+[03-Oct-2016 19:12:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[03-Oct-2016 19:12:31 UTC] PHP   2. upload_files() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:36
+[03-Oct-2016 19:12:31 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/proyecto_v3/utils/upload.php:92
+[03-Oct-2016 19:13:59 UTC] PHP Warning:  move_uploaded_file(media/2073316597-1025640568-flowers.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_v3/utils/upload.php on line 92
+[03-Oct-2016 19:13:59 UTC] PHP Stack trace:
+[03-Oct-2016 19:13:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[03-Oct-2016 19:13:59 UTC] PHP   2. upload_files() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:36
+[03-Oct-2016 19:13:59 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/proyecto_v3/utils/upload.php:92
+[03-Oct-2016 19:13:59 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpdLDmWg' to 'media/2073316597-1025640568-flowers.png' in /home/ubuntu/workspace/proyecto_v3/utils/upload.php on line 92
+[03-Oct-2016 19:13:59 UTC] PHP Stack trace:
+[03-Oct-2016 19:13:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[03-Oct-2016 19:13:59 UTC] PHP   2. upload_files() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:36
+[03-Oct-2016 19:13:59 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/proyecto_v3/utils/upload.php:92
