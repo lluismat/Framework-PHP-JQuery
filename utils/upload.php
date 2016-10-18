@@ -1,7 +1,5 @@
 <?php
 
-//utilizar $_FILES['file'] no $_FILES['avatar'] por dropzone.js
-
 function upload_files() {
     $error = "";
     $copiarFichero = false;
@@ -30,19 +28,9 @@ function upload_files() {
     }
 
     ////////////////////////////////////////////////////////////////////////////
-    //if($_FILES['avatar']['error'] !== 0) { //Assignarem a l'us default-avatar
-        //$error .=  'Archivo no subido correctamente <br>';
-    //}
-
-    ////////////////////////////////////////////////////////////////////////////
     if ($_FILES['file']['size'] > 55000 ){
         $error .=  "Large File Size <br>";
     }
-
-    ////////////////////////////////////////////////////////////////////////////
-    //if ($_FILES['avatar']['name'] === "") { //Assignarem a l'us default-avatar
-        //$error .= "No ha seleccionado ninguna imagen. Te proporcionamos un default-avatar<br>";
-    //}
 
     if ($_FILES['file']['name'] !== "") {
         ////////////////////////////////////////////////////////////////////////////
@@ -62,19 +50,8 @@ function upload_files() {
         }
     }
 
-
-            $image_size_info    = getimagesize($imagen); //get image size
-            if($image_size_info){
-                $image_width        = $image_size_info[0]; //image width
-                $image_height       = $image_size_info[1]; //image height
-                $image_type         = $image_size_info['mime']; //image type
-            }else{
-                die("Make sure image file is valid!");
-            }
-
-
     ////////////////////////////////////////////////////////////////////////////
-    $upfile = $_SERVER['DOCUMENT_ROOT'].'/proyecto_v3/media/'.$_FILES['avatar']['name'];
+    $upfile = ($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/media/'.$_FILES['file']['name']);
     if (is_uploaded_file($_FILES['file']['tmp_name'])){
         if (is_file($_FILES['file']['tmp_name'])) {
             $idUnico = rand();
@@ -82,7 +59,7 @@ function upload_files() {
             $_SESSION['nombreFichero'] = $nombreFichero;
             $copiarFichero = true;
             // I use absolute route to move_uploaded_file because this happens when i run ajax
-            $upfile = $_SERVER['DOCUMENT_ROOT'].'/proyecto_v3/media/'.$nombreFichero;
+            $upfile = ($_SERVER['DOCUMENT_ROOT'].'/proyecto_v3/media/'.$nombreFichero);
         }else{
                 $error .=   "Invalid File...";
         }
@@ -100,21 +77,13 @@ function upload_files() {
             return $return=array('resultado'=>true , 'error'=>$error,'datos'=>$upfile);
         }
         if($_FILES['file']['error'] !== 0) { //Assignarem a l'us default-avatar
-            $upfile = '/proyecto_v3/media/default-avatar.png';
+            $upfile = ($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/media/default-avatar.png');
             return $return=array('resultado'=>true,'error'=>$error,'datos'=>$upfile);
         }
     }else{
         return $return=array('resultado'=>false,'error'=>$error,'datos'=>"");
     }
 }
-/*
-  function upload_files() {
-
-
-    return json_encode("ha entrado en upload_files");
-
-  }
-  */
 
 function remove_files(){
 

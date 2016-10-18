@@ -41,9 +41,9 @@
                  <br/><br/>
 
                 <p align=center>Category:<br>
-                <input type="checkbox" class="cat" name="categoria[]" id="categoria[]" value="categoria1"> categoria1 &nbsp
-                 <input type="checkbox" class="cat" name="categoria[]" id="categoria[]" value="categoria2"> categoria2 &nbsp
-                 <input type="checkbox" class="cat" name="categoria[]" id="categoria[]" value="categoria3"> categoria3 &nbsp
+                <input type="checkbox" class="cat" name="categoria[]" id="categoria[]" value="computing"> Computing &nbsp
+                 <input type="checkbox" class="cat" name="categoria[]" id="categoria[]" value="home_appliances"> Home Appliances &nbsp
+                 <input type="checkbox" class="cat" name="categoria[]" id="categoria[]" value="clothes"> Clothes &nbsp
                  <div id="e_categoria"></div>
                  <br/><br/>
 

@@ -1,16 +1,17 @@
 <?php
 
-  session_start();
+    session_start();
 
   include ($_SERVER['DOCUMENT_ROOT'] . "/proyecto_v3/modules/products/utils/functions_products.inc.php");
   include ($_SERVER['DOCUMENT_ROOT'] . "/proyecto_v3/utils/upload.php");
+  include ($_SERVER['DOCUMENT_ROOT'] . "/proyecto_v3/utils/common.inc.php");
 
 
   if ((isset($_GET["upload"])) && ($_GET["upload"] == true)) {
-
       $result_avatar = upload_files();
       $_SESSION['result_avatar'] = $result_avatar;
-      //echo json_encode($result_avatar);
+      echo json_encode($result_avatar);
+  		exit;
   }
 
   if ((isset($_POST['submit_products_json']))) {
@@ -44,9 +45,20 @@
                         'avatar' => $result_avatar['datos']
                     );
 
-                    $mensaje = "Product has been successfully registered";
 
-                    //redirigir a otra p�gina con los datos de $arrArgument y $mensaje
+    /////////////////insert into BD////////////////////////
+                    $arrValue = false;
+                    $path_model = $_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/modules/products/model/model/';
+                    $arrValue = loadModel($path_model, "products_model", "create_products", $arrArgument);
+                    //echo json_encode($arrValue);
+                    //die();
+
+                    if ($arrValue)
+                        $mensaje = "Su registro se ha efectuado correctamente, para finalizar compruebe que ha recibido un correo de validacion y siga sus instrucciones";
+                    else
+                        $mensaje = "No se ha podido realizar su alta. Intentelo mas tarde";
+
+
                     $_SESSION['products'] = $arrArgument;
                     $_SESSION['msje'] = $mensaje;
                     $callback = "index.php?module=products&view=results";
@@ -54,7 +66,6 @@
                     $jsondata["success"] = true;
                     $jsondata["redirect"] = $callback;
                     echo json_encode($jsondata);
-                    exit;
                 } else {
                     //$error = $result['error'];
                     //$error_avatar = $result_avatar['error'];
