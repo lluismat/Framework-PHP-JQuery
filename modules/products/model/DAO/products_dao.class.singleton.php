@@ -41,13 +41,14 @@ class productsDAO {
         }
 
         $sql = "INSERT INTO products (cod_prod,name_prod,description,color,"
-                . " city,community,country,price,computing,home_appliances,clothes,entry_date,expiration_date,avatar"
-                . " ) VALUES ('$cod_prod', '$name_prod', '$description',"
-                . " '$color','$city', '$community', '$country', '$price', '$computing',"
-                ." '$home_appliances', '$clothes', '$entry_date',"
+                . " city, community, country, price,computing,home_appliances,clothes,entry_date,expiration_date,avatar"
+                . " ) VALUES ($cod_prod, '$name_prod', '$description',"
+                . " '$color', '$city', '$community', '$country', $price, $computing, $home_appliances, $clothes, '$entry_date',"
                 . "'$expiration_date' '$avatar')";
+
         return $db->ejecutar($sql);
         //return json_encode($sql);
+        
     }
 
 }

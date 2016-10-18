@@ -51,7 +51,7 @@
                     $path_model = $_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/modules/products/model/model/';
                     $arrValue = loadModel($path_model, "products_model", "create_products", $arrArgument);
                     //echo json_encode($arrValue);
-                    //die();
+                   // die();
 
                     if ($arrValue)
                         $mensaje = "Su registro se ha efectuado correctamente, para finalizar compruebe que ha recibido un correo de validacion y siga sus instrucciones";

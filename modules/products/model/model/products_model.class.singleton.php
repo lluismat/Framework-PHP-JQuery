@@ -3,7 +3,6 @@
 $path = $_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/';
 define('SITE_ROOT', $path);
 require(SITE_ROOT . "modules/products/model/BLL/products_bll.class.singleton.php");
-
 class products_model {
 
     private $bll;

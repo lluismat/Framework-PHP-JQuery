@@ -121,3 +121,105 @@
 [16-Oct-2016 19:57:23 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
 [16-Oct-2016 19:57:23 UTC] PHP   4. include_once() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:6
 [16-Oct-2016 19:57:23 UTC] PHP   5. require() /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php:5
+[17-Oct-2016 09:54:22 UTC] PHP Warning:  require(/home/ubuntu/workspace/proyecto_v3/modules/poducts/model/DAO/products_dao.class.singleton.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php on line 8
+[17-Oct-2016 09:54:22 UTC] PHP Stack trace:
+[17-Oct-2016 09:54:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[17-Oct-2016 09:54:22 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[17-Oct-2016 09:54:22 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[17-Oct-2016 09:54:22 UTC] PHP   4. include_once() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:6
+[17-Oct-2016 09:54:22 UTC] PHP   5. require() /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php:5
+[17-Oct-2016 09:54:22 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/proyecto_v3/modules/poducts/model/DAO/products_dao.class.singleton.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php on line 8
+[17-Oct-2016 09:54:22 UTC] PHP Stack trace:
+[17-Oct-2016 09:54:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[17-Oct-2016 09:54:22 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[17-Oct-2016 09:54:22 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[17-Oct-2016 09:54:22 UTC] PHP   4. include_once() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:6
+[17-Oct-2016 09:54:22 UTC] PHP   5. require() /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php:5
+[17-Oct-2016 09:56:28 UTC] PHP Warning:  require(SITE_ROOTmodules/products/model/BLL/products_bll.class.singleton.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php on line 5
+[17-Oct-2016 09:56:28 UTC] PHP Stack trace:
+[17-Oct-2016 09:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[17-Oct-2016 09:56:28 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[17-Oct-2016 09:56:28 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[17-Oct-2016 09:56:28 UTC] PHP   4. include_once() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:6
+[17-Oct-2016 09:56:28 UTC] PHP Fatal error:  require(): Failed opening required 'SITE_ROOTmodules/products/model/BLL/products_bll.class.singleton.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php on line 5
+[17-Oct-2016 09:56:28 UTC] PHP Stack trace:
+[17-Oct-2016 09:56:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[17-Oct-2016 09:56:28 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[17-Oct-2016 09:56:28 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[17-Oct-2016 09:56:28 UTC] PHP   4. include_once() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:6
+[17-Oct-2016 15:23:08 UTC] PHP Warning:  require(MODEL_PATHDb.class.singleton.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php on line 7
+[17-Oct-2016 15:23:08 UTC] PHP Stack trace:
+[17-Oct-2016 15:23:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[17-Oct-2016 15:23:08 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[17-Oct-2016 15:23:08 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[17-Oct-2016 15:23:08 UTC] PHP   4. include_once() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:6
+[17-Oct-2016 15:23:08 UTC] PHP   5. require() /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php:5
+[17-Oct-2016 15:23:08 UTC] PHP Fatal error:  require(): Failed opening required 'MODEL_PATHDb.class.singleton.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php on line 7
+[17-Oct-2016 15:23:08 UTC] PHP Stack trace:
+[17-Oct-2016 15:23:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[17-Oct-2016 15:23:08 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[17-Oct-2016 15:23:08 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[17-Oct-2016 15:23:08 UTC] PHP   4. include_once() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:6
+[17-Oct-2016 15:23:08 UTC] PHP   5. require() /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php:5
+[17-Oct-2016 15:27:37 UTC] PHP Warning:  require(/home/ubuntu/workspace/proyecto_v3/modules/poducts/model/DAO/products_dao.class.singleton.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php on line 8
+[17-Oct-2016 15:27:37 UTC] PHP Stack trace:
+[17-Oct-2016 15:27:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[17-Oct-2016 15:27:37 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[17-Oct-2016 15:27:37 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[17-Oct-2016 15:27:37 UTC] PHP   4. include_once() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:6
+[17-Oct-2016 15:27:37 UTC] PHP   5. require() /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php:5
+[17-Oct-2016 15:27:37 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/proyecto_v3/modules/poducts/model/DAO/products_dao.class.singleton.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php on line 8
+[17-Oct-2016 15:27:37 UTC] PHP Stack trace:
+[17-Oct-2016 15:27:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[17-Oct-2016 15:27:37 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[17-Oct-2016 15:27:37 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[17-Oct-2016 15:27:37 UTC] PHP   4. include_once() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:6
+[17-Oct-2016 15:27:37 UTC] PHP   5. require() /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php:5
+[17-Oct-2016 15:31:04 UTC] PHP Warning:  require(/home/ubuntu/workspace/proyecto_v3/modules/poducts/model/DAO/products_dao.class.singleton.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php on line 8
+[17-Oct-2016 15:31:04 UTC] PHP Stack trace:
+[17-Oct-2016 15:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[17-Oct-2016 15:31:04 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[17-Oct-2016 15:31:04 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[17-Oct-2016 15:31:04 UTC] PHP   4. include_once() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:6
+[17-Oct-2016 15:31:04 UTC] PHP   5. require() /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php:5
+[17-Oct-2016 15:31:04 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/proyecto_v3/modules/poducts/model/DAO/products_dao.class.singleton.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php on line 8
+[17-Oct-2016 15:31:04 UTC] PHP Stack trace:
+[17-Oct-2016 15:31:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[17-Oct-2016 15:31:04 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[17-Oct-2016 15:31:04 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[17-Oct-2016 15:31:04 UTC] PHP   4. include_once() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:6
+[17-Oct-2016 15:31:04 UTC] PHP   5. require() /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php:5
+[17-Oct-2016 15:35:01 UTC] PHP Warning:  require(/home/ubuntu/workspace/proyecto_v3/modules/poducts/model/DAO/products_dao.class.singleton.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php on line 8
+[17-Oct-2016 15:35:01 UTC] PHP Stack trace:
+[17-Oct-2016 15:35:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[17-Oct-2016 15:35:01 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[17-Oct-2016 15:35:01 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[17-Oct-2016 15:35:01 UTC] PHP   4. include_once() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:6
+[17-Oct-2016 15:35:01 UTC] PHP   5. require() /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php:5
+[17-Oct-2016 15:35:01 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/proyecto_v3/modules/poducts/model/DAO/products_dao.class.singleton.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php on line 8
+[17-Oct-2016 15:35:01 UTC] PHP Stack trace:
+[17-Oct-2016 15:35:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[17-Oct-2016 15:35:01 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[17-Oct-2016 15:35:01 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[17-Oct-2016 15:35:01 UTC] PHP   4. include_once() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:6
+[17-Oct-2016 15:35:01 UTC] PHP   5. require() /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php:5
+[18-Oct-2016 14:07:03 UTC] PHP Fatal error:  Call to undefined function loadModel() in /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php on line 52
+[18-Oct-2016 14:07:03 UTC] PHP Stack trace:
+[18-Oct-2016 14:07:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[18-Oct-2016 14:07:03 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[18-Oct-2016 14:20:28 UTC] PHP Fatal error:  Class 'user_bll' not found in /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php on line 12
+[18-Oct-2016 14:20:28 UTC] PHP Stack trace:
+[18-Oct-2016 14:20:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[18-Oct-2016 14:20:28 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[18-Oct-2016 14:20:28 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[18-Oct-2016 14:20:28 UTC] PHP   4. products_model::getInstance() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:14
+[18-Oct-2016 14:20:28 UTC] PHP   5. products_model->__construct() /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php:17
+[18-Oct-2016 14:37:53 UTC] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/ubuntu/workspace/proyecto_v3/modules/products/model/DAO/products_dao.class.singleton.php on line 50
+[18-Oct-2016 14:37:53 UTC] PHP Stack trace:
+[18-Oct-2016 14:37:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:0
+[18-Oct-2016 14:37:53 UTC] PHP   2. submit_products() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:18
+[18-Oct-2016 14:37:53 UTC] PHP   3. loadModel() /home/ubuntu/workspace/proyecto_v3/modules/products/controller/controller_products.class.php:52
+[18-Oct-2016 14:37:53 UTC] PHP   4. products_model->create_products() /home/ubuntu/workspace/proyecto_v3/utils/common.inc.php:17
+[18-Oct-2016 14:37:53 UTC] PHP   5. products_bll->create_products_BLL() /home/ubuntu/workspace/proyecto_v3/modules/products/model/model/products_model.class.singleton.php:22
+[18-Oct-2016 14:37:53 UTC] PHP   6. productsDAO->create_products_DAO() /home/ubuntu/workspace/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php:28
+[18-Oct-2016 14:37:53 UTC] PHP   7. json_encode() /home/ubuntu/workspace/proyecto_v3/modules/products/model/DAO/products_dao.class.singleton.php:50
