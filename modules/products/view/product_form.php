@@ -47,62 +47,21 @@
                  <div id="e_categoria"></div>
                  <br/><br/>
 
-                                    City: <br>
-                            <select name="ciudad" id="ciudad" >
-                            <option selected>Select city</option>
-                            <option value="atenas">Atenas
-                            <option value="bocairent">Bocairent
-                            <option value="banyeres">Banyeres
-                            <option value="ontinyent">Ontinyent
-                            <option value="valencia">Valencia
-                            <option value="madrid">Madrid
-                            <option value="barcelona">Barcelona
-                            <option value="paris">Paris
-                            <option value="berlin">Berlin
-                            <option value="Londres">London
+                        City: <br>
+                        <select name="ciudad" id="ciudad" >
+
                         </select>
                         <div id="e_ciudad"></div>
                         <br/>
-                        Community:<br>
-                        <select name="comunidad" id="comunidad">
-                            <option selected>Select community</option>
-                          <option value="Andalucía">Andalucía</option>
-                          <option value="Aragón">Aragón</option>
-                          <option value="Principado de Asturias">Principado de Asturias</option>
-                          <option value="Islas Baleares">Islas Baleares</option>
-                          <option value="País Vasco">País Vasco</option>
-                          <option value="Canarias">Canarias</option>
-                          <option value="Cantabria">Cantabria</option>
-                          <option value="Castilla-La Mancha">Castilla-La Mancha</option>
-                          <option value="Castilla y León">Castilla y León</option>
-                          <option value="Cataluña">Cataluña</option>
-                          <option value="Extremadura">Extremadura</option>
-                          <option value="Galicia">Galicia</option>
-                          <option value="Comunidad de Madrid">Comunidad de Madrid</option>
-                          <option value="Región de Murcia">Región de Murcia</option>
-                          <option value="Comunidad Foral de Navarra">Comunidad Foral de Navarra</option>
-                          <option value="La Rioja">La Rioja</option>
-                          <option value="Comunidad Valenciana">Comunidad Valenciana</option>
-                          <option value="Ceuta">Ceuta</option>
-                          <option value="Melilla">Melilla</option>
+                        Province:<br>
+                        <select name="province" id="province">
+
                         </select>
-                        <div id="e_comunidad"></div>
+                        <div id="e_province"></div>
                         <br/>
-                        Country:<br>
+                      Country:<br>
 
                       <select name="pais" id="pais">
-                      <option selected>Select country</option>
-                      <option value="DE">Alemania</option>
-                      <option value="AD">Andorra</option>
-                      <option value="BE">Bélgica</option>
-                      <option value="CA">Canadá</option>
-                      <option value="UK">United Kingdom</option>
-                      <option value="CN">China</option>
-                      <option value="DK">Dinamarca</option>
-                      <option value="ES">España</option>
-                      <option value="US">Estados Unidos</option>
-                      <option value="FR">Francia</option>
-                      <option value="GR">Grecia</option>
 
                       </select>
                       <div id="e_pais"></div>

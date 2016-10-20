@@ -46,7 +46,7 @@ function validate_products($value){
      //no filter
     $resultado['ciudad'] = $value['ciudad'];
     $resultado['pais'] = $value['pais'];
-    $resultado['comunidad'] = $value['comunidad'];
+    $resultado['province'] = $value['province'];
     $resultado['categoria'] = $value['categoria'];
     $resultado['color'] = $value['color'];
 
@@ -73,18 +73,18 @@ function validate_products($value){
     }
 
 
-    if ($resultado['ciudad'] === 'Select city') {
+    if ($resultado['ciudad'] === 'Select City') {
         $error['ciudad'] = "You haven't select any city.";
         $valido = false;
     }
 
-    if ($resultado['pais'] === 'Select country') {
+    if ($resultado['pais'] === 'Select Country') {
         $error['pais'] = "You haven't select any country.";
         $valido = false;
     }
 
-    if ($resultado['comunidad'] === 'Select community') {
-        $error['comunidad'] = "You haven't select any autonomus community.";
+    if ($resultado['province'] === 'Select Province') {
+        $error['province'] = "You haven't select any province.";
         $valido = false;
     }
     if ($resultado['color']==='') {

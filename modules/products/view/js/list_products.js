@@ -84,9 +84,9 @@ function pintar_product(data) {
     ciudad.innerHTML = "City = ";
     ciudad.innerHTML += data.products.ciudad;
 
-    var comunidad = document.createElement("div");
-    comunidad.innerHTML = "community = ";
-    comunidad.innerHTML += data.products.comunidad;
+    var province = document.createElement("div");
+    province.innerHTML = "province = ";
+    province.innerHTML += data.products.province;
 
     var pais = document.createElement("div");
     pais.innerHTML = "Country = ";
@@ -128,12 +128,12 @@ function pintar_product(data) {
     parrafo.appendChild(color);
     parrafo.appendChild(categoria);
     parrafo.appendChild(ciudad);
-    parrafo.appendChild(comunidad);
+    parrafo.appendChild(province);
     parrafo.appendChild(pais);
     parrafo.appendChild(price);
     parrafo.appendChild(date);
     parrafo.appendChild(date_c);
-    
+
     content.appendChild(div_products);
     content.appendChild(img);
 }

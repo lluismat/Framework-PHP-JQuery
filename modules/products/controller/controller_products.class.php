@@ -37,7 +37,7 @@
                         'color' => $result['datos']['color'],
                         'categoria' => $result['datos']['categoria'],
                         'ciudad' => strtoupper($result['datos']['ciudad']),
-                        'comunidad' => strtoupper($result['datos']['comunidad']),
+                        'province' => strtoupper($result['datos']['province']),
                         'pais' => strtoupper($result['datos']['pais']),
                         'price' => $result['datos']['price'],
                         'date' => $result['datos']['date'],
@@ -146,4 +146,60 @@ if ((isset($_GET["load_data"])) && ($_GET["load_data"] == true)) {
     }
 
 
+}
+
+if(  (isset($_GET["load_pais"])) && ($_GET["load_pais"] == true)  ){
+  $json = array();
+
+    $url = 'http://www.oorsprong.org/websamples.countryinfo/CountryInfoService.wso/ListOfCountryNamesByName/JSON';
+
+  $path_model=$_SERVER['DOCUMENT_ROOT'].'/proyecto_v3/modules/products/model/model/';
+  $json = loadModel($path_model, "products_model", "obtain_paises", $url);
+
+  if($json){
+    echo $json;
+    //exit;
+  }else{
+    $json = "error";
+    echo $json;
+    //exit;
+  }
+}
+
+/////////////////////////////////////////////////// load_provincias
+if(  (isset($_GET["load_provincias"])) && ($_GET["load_provincias"] == true)  ){
+  $jsondata = array();
+      $json = array();
+
+  $path_model=$_SERVER['DOCUMENT_ROOT'].'/proyecto_v3/modules/products/model/model/';
+  $json = loadModel($path_model, "products_model", "obtain_provincias");
+
+  if($json){
+    $jsondata["province"] = $json;
+    echo json_encode($jsondata);
+    //exit;
+  }else{
+    $jsondata["province"] = "error";
+    echo json_encode($jsondata);
+    //exit;
+  }
+}
+
+/////////////////////////////////////////////////// load_poblaciones
+if(  isset($_POST['idPoblac']) ){
+    $jsondata = array();
+      $json = array();
+
+  $path_model=$_SERVER['DOCUMENT_ROOT'].'/proyecto_v3/modules/products/model/model/';
+  $json = loadModel($path_model, "products_model", "obtain_poblaciones", $_POST['idPoblac']);
+
+  if($json){
+    $jsondata["ciudad"] = $json;
+    echo json_encode($jsondata);
+    //exit;
+  }else{
+    $jsondata["ciudad"] = "error";
+    echo json_encode($jsondata);
+    //exit;
+  }
 }
