@@ -5,18 +5,45 @@
   include ($_SERVER['DOCUMENT_ROOT'] . "/proyecto_v3/modules/products/utils/functions_products.inc.php");
   include ($_SERVER['DOCUMENT_ROOT'] . "/proyecto_v3/utils/upload.php");
   include ($_SERVER['DOCUMENT_ROOT'] . "/proyecto_v3/utils/common.inc.php");
-
+  $path = $_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/';
+  define('SITE_ROOT', $path);
 
   if ((isset($_GET["upload"])) && ($_GET["upload"] == true)) {
       $result_avatar = upload_files();
       $_SESSION['result_avatar'] = $result_avatar;
       echo json_encode($result_avatar);
-  		exit;
+  		//exit;
   }
 
   if ((isset($_POST['submit_products_json']))) {
 	  submit_products();
 	}
+
+  if ($_GET["idProduct"]) {
+      $id = $_GET["idProduct"];
+      $path_model = SITE_ROOT . '/modules/products/model/model/';
+      $arrValue = loadModel($path_model, "products_model", "details_products",$id);
+
+      if ($arrValue[0]) {
+          loadView($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/modules/products/view/', 'details_products.php', $arrValue[0]);
+      } else {
+          $message = "NOT FOUND PRODUCT";
+          loadView($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/view/inc', '404.php', $message);
+      }
+  } else {
+      $path_model = SITE_ROOT . '/modules/products/model/model/';
+      $arrValue = loadModel($path_model, "products_model", "list_products");
+
+      if ($arrValue) {
+          loadView($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/modules/products/view/', 'list_products.php', $arrValue);
+      } else {
+          $message = "NOT PRODUCTS";
+          loadView($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/view/inc/', '404.php', $message);
+      }
+  }
+
+
+
 
 	function submit_products() {
 
@@ -82,15 +109,6 @@
                     echo json_encode($jsondata);
                 }
 
-/*
-				//probes
-	            $jsondata["success"] = true;
-				$jsondata["name_prod"] = $productsJSON['name_prod'];
-				$jsondata["redirect2"] = "asignando correctamente!!";
-	            echo json_encode($jsondata);
-	            exit;
-	            */
-
 			}
 
 
@@ -120,7 +138,7 @@ if (isset($_GET["load"]) && $_GET["load"] == true) {
     }
     close_session();
     echo json_encode($jsondata);
-    exit;
+    //exit;
 }
 
 function close_session() {
@@ -138,11 +156,11 @@ if ((isset($_GET["load_data"])) && ($_GET["load_data"] == true)) {
     if (isset($_SESSION['products'])) {
         $jsondata["products"] = $_SESSION['products'];
         echo json_encode($jsondata);
-        exit;
+        //exit;
     } else {
         $jsondata["products"] = "";
         echo json_encode($jsondata);
-        exit;
+        //exit;
     }
 
 
