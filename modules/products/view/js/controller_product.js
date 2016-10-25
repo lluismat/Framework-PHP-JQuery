@@ -517,8 +517,8 @@ function validate_products(){
       result=false;
       return false;
   }
-  else if ($("#country").val() === "" || $("#country").val() === "Select Country") {
-      $("#country").focus().after("<span class='error'>Select Country</span>");
+  else if ($("#pais").val() === "" || $("#pais").val() === "Select Country") {
+      $("#pais").focus().after("<span class='error'>Select Country</span>");
       result=false;
       return false;
   }

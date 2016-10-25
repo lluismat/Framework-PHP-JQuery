@@ -42,9 +42,9 @@ class productsDAO {
 
         $sql = "INSERT INTO products (cod_prod,name_prod,description,color,"
                 . " city, province, country, price,computing,home_appliances,clothes,entry_date,expiration_date,avatar"
-                . " ) VALUES ($cod_prod, '$name_prod', '$description',"
-                . " '$color', '$city', '$province', '$country', $price, $computing, $home_appliances, $clothes, '$entry_date',"
-                . "'$expiration_date' '$avatar')";
+                . " ) VALUES ('$cod_prod', '$name_prod', '$description',"
+                . " '$color', '$city', '$province', '$country', '$price', '$computing', '$home_appliances', '$clothes', '$entry_date',"
+                . "'$expiration_date', '$avatar')";
 
         return $db->ejecutar($sql);
         //return json_encode($sql);
@@ -105,7 +105,7 @@ class productsDAO {
     }
 
     public function details_products_DAO($db,$id) {
-        $sql = "SELECT * FROM products WHERE id=".$id;
+        $sql = "SELECT * FROM products WHERE cod_prod=".$id;
         $stmt = $db->ejecutar($sql);
         return $db->listar($stmt);
 
