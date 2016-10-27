@@ -148,6 +148,11 @@ if(  (isset($_GET["load_pais"])) && ($_GET["load_pais"] == true)  ){
   $json = loadModel($path_model, "products_model", "obtain_paises", $url);
 
   if($json){
+
+  if (preg_match('/Error/',$json)) {
+  $json = "error";
+
+  }
     echo $json;
     //exit;
   }else{
@@ -194,30 +199,3 @@ if(  isset($_POST['idPoblac']) ){
     //exit;
   }
 }
-
-///LOAD LIST PRODUCTS
-$path = $_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/';
-define('SITE_ROOT', $path);
-
-  if ($_GET["idProduct"]) {
-      $id = $_GET["idProduct"];
-      $path_model = SITE_ROOT . '/modules/products/model/model/';
-      $arrValue = loadModel($path_model, "products_model", "details_products",$id);
-
-      if ($arrValue[0]) {
-          loadView($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/modules/products/view/', 'details_products.php', $arrValue[0]);
-      } else {
-          $message = "NOT FOUND PRODUCT";
-          loadView($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/view/inc', '404.php', $message);
-      }
-  } else if($_GET["listProd"]){
-      $path_model = SITE_ROOT . '/modules/products/model/model/';
-      $arrValue = loadModel($path_model, "products_model", "list_products");
-
-      if ($arrValue) {
-          loadView($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/modules/products/view/', 'list_products.php', $arrValue);
-      } else {
-          $message = "NOT PRODUCTS";
-          loadView($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/view/inc/', '404.php', $message);
-      }
-  }

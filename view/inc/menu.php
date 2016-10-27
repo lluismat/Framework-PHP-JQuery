@@ -30,11 +30,11 @@
                        echo 'deactivate';
               ?>"><a href="index.php?module=products&view=product_form">CREATE PRODUCTS</a></li>
               <li class="
-              <?php if($_GET['module'] === 'products')
+              <?php if($_GET['module'] === 'products_frontend')
                        echo'active';
                     else
                        echo 'deactivate';
-              ?>"><a href="index.php?module=products&listProd=true">LIST PRODUCTS</a></li>
+              ?>"><a href="index.php?module=products_frontend&view=list_products">LIST PRODUCTS</a></li>
               <li class="
               <?php if($_GET['module'] === 'portfolio')
                        echo'active';

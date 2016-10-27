@@ -8,8 +8,10 @@
             $modelClass = $model_name;
 
             if (!method_exists($modelClass, $function)){
-              loadView($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/view/inc','404.php','Function not found in Model');
+              //loadView($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/view/inc','404.php','Function not found in Model');
                 //die($function . ' function not found in Model ' . $model_name);
+                throw new Exception();
+
             }
 
             $obj = $modelClass::getInstance();
@@ -18,8 +20,10 @@
                 return $obj->$function($arrArgument);
             }
         } else {
-            loadView($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/view/inc','404.php','Model not found under model folder');
+            //loadView($_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/view/inc','404.php','Model not found under model folder');
             //die($model_name . ' Model Not Found under Model Folder');
+            throw new Exception();
+
         }
     }
 
@@ -33,10 +37,18 @@
     			include_once($view_path);
     		} else {
     			//die($templateName . ' Template Not Found under View Folder');
+          $log = Log::getInstance();
+    			$log->add_log_general("error loadView general", $_GET['module'], "response ".http_response_code());
+          //$text, $controller, $function
+    			$log->add_log_user("error loadView general", "", $_GET['module'], "response ".http_response_code());//$msg, $username = "", $controller, $function
 
+    			$result = response_code(http_response_code());
+    			$arrData = $result;
+          /*
     			$message = "NO TEMPLATE FOUND";
     			$arrData = $message;
-    			require_once $_SERVER['DOCUMENT_ROOT'] . "/proyecto_v3/view/inc/404.php";
-    			die();
+          */
+    			require_once $_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/view/inc/templates_error/'. "error" .'.php';
+    			//die();
     		}
     	}
