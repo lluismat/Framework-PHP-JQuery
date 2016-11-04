@@ -13,6 +13,17 @@
    GENERAL STYLES
  ============================================================ */
  /*****************PRODUCTS****************/
+
+ .pagination{
+     text-align: center;
+     background-color:  #2ecc71;
+ }
+ .BackHome{
+     float:  right;
+     font-size: 1.5em;
+     padding-right: 15px;
+ }
+ 
  .prod {
      display:inline-block;
      margin: 8px;

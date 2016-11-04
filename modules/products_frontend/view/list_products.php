@@ -9,6 +9,16 @@
                </div>
             </div>
        </section>
+<br/><br/>
+       <center>
+       <form name="search_prod" id="search_prod" class="search_prod">
+           <input type="text" value="" placeholder="Search Product ..." class="input_search" id="keyword" list="datalist">
+           <!-- <div id="results_keyword"></div> -->
+           <input name="Submit" id="Submit" class="button_search" type="button" />
+
+       </form>
+       </center>
+       
 <div id="results"></div>
 
 <center>

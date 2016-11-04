@@ -396,14 +396,13 @@ function validate_products(){
   var cod_prod = document.getElementById('cod_prod').value;
   var name_prod = document.getElementById('name_prod').value;
   var description = document.getElementById('description').value;
-  var color = document.getElementById('color').value;
+  var color = $('input[id="color"]:checked').val();
   var ciudad = document.getElementById('ciudad').value;
   var province = document.getElementById('province').value;
   var pais = document.getElementById('pais').value;
   var date = document.getElementById('date').value;
   var date_c = document.getElementById('date_c').value;
   var price = document.getElementById('price').value;
-
 
   var categoria = [];
   var inputElements = document.getElementsByClassName('cat');
@@ -546,7 +545,7 @@ function validate_products(){
             var data={"cod_prod":cod_prod,"name_prod": name_prod,"description": description, "color": color, "categoria": categoria, "ciudad": ciudad,
             "province": province, "pais": pais, "price": price,"date": date, "date_c": date_c};
               var data_products_JSON = JSON.stringify(data);
-              //console.log(data);
+              console.log(data);
               $.post('modules/products/controller/controller_products.class.php',
                       {submit_products_json: data_products_JSON},
               function (response) {
