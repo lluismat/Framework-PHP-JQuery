@@ -12,18 +12,110 @@
 /* =============================================================
    GENERAL STYLES
  ============================================================ */
- /*****************PRODUCTS****************/
+/********SEARCH******************/
+#search-box {
+position: relative;
+width: 50%;
+margin: 0;
+}
 
+#search_prod
+{
+height: 40px;
+border: 1px solid #999;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+background-color: #fff;
+overflow: hidden;
+}
+
+#keyword
+{
+font-size: 14px;
+color: #ddd;
+border-width: 0;
+background: transparent;
+}
+
+#search-box input[type="text"]
+{
+width: 90%;
+padding: 11px 0 12px 1em;
+color: #333;
+outline: none;
+}
+
+.button_search {
+position: absolute;
+top: 0;
+right: 0;
+height: 42px;
+width: 80px;
+font-size: 14px;
+color: #fff;
+text-align: center;
+line-height: 42px;
+border-width: 0;
+background-color:crimson;
+-webkit-border-radius: 0px 5px 5px 0px;
+-moz-border-radius: 0px 5px 5px 0px;
+border-radius: 0px 5px 5px 0px;
+cursor: pointer;
+}
+
+/*****PAGINATION*****/
  .pagination{
      text-align: center;
-     background-color:  #2ecc71;
+     background-color:  crimson;
  }
  .BackHome{
      float:  right;
      font-size: 1.5em;
      padding-right: 15px;
  }
- 
+
+ /*****************PRODUCTS****************/
+
+  .id_prod{
+    position: relative;
+    left:25%;
+    display:block;
+    margin: 8px;
+    width: 500px;
+    height:150px;
+    text-align: center;
+    border-radius: 24px 24px 24px 24px;
+    -moz-border-radius: 24px 24px 24px 24px;
+    -webkit-border-radius: 24px 24px 24px 24px;
+    border: 0px solid #000000;
+    background-color: #f5f5f5;
+    -webkit-box-shadow: 10px 10px 14px -8px rgba(0,0,0,0.54);
+    -moz-box-shadow: 10px 10px 14px -8px rgba(0,0,0,0.54);
+    box-shadow: 10px 10px 14px -8px rgba(0,0,0,0.54);
+  }
+
+  .icon-md {
+      font-size: 36px;
+      height: 80px;
+      width: 80px;
+      line-height: 80px;
+      color: #fff;
+      margin: 8px;
+      margin-right: 10px;
+      background-color: rgba(0, 0, 0, 0.4);
+      text-align: center;
+      display: block;
+      border-radius: 50%;
+      -webkit-transition: 500ms;
+      -moz-transition: 500ms;
+      -o-transition: 500ms;
+      transition: 500ms;
+  }
+  .name_product{
+    margin-top:20px;
+  }
+
  .prod {
      display:inline-block;
      margin: 8px;

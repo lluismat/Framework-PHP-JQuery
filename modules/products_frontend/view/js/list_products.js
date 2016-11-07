@@ -70,13 +70,13 @@ function search_product(keyword) {
         $('.pagination').html('');
 
         var img_prod = document.getElementById('img_prod');
-        img_product.innerHTML = '<img src="' + product[0].avatar + '" class="img-product"> ';
+        img_prod.innerHTML = '<img src="' + product[0].avatar + '" class="img-product"> ';
         var name_prod = document.getElementById('name_prod');
-        name_product.innerHTML = product[0].name;
+        name_prod.innerHTML = product[0].name_prod;
         var color_prod = document.getElementById('color_prod');
         color_prod.innerHTML = product[0].color;
         var desc_prod = document.getElementById('description_prod');
-        desc_prod.innerHTML = product[0].description;
+        description_prod.innerHTML = product[0].description;
         var price_prod = document.getElementById('price_prod');
         price_prod.innerHTML = "Price: " + product[0].price + " €";
         price_prod.setAttribute("class", "special");
@@ -93,7 +93,7 @@ function count_product(keyword) {
     $.get("modules/products_frontend/controller/controller_products_frontend.class.php?count_product=" + keyword, function (data, status) {
         var json = JSON.parse(data);
         var num_products = json.num_products;
-        alert("num_products: " + num_products);
+        //alert("num_products: " + num_products);
 
         if (num_products == 0) {
             $("#results").load("modules/products_frontend/controller/controller_products_frontend.class.php?view_error=false"); //view_error=false
@@ -130,7 +130,7 @@ $(document).ready(function () {
     if (getCookie("search")) {
         var keyword=getCookie("search");
         count_product(keyword);
-        alert("carrega pagina getCookie(search): " + getCookie("search"));
+        //alert("carrega pagina getCookie(search): " + getCookie("search"));
        //("#keyword").val(keyword) if we don't use refresh(), this way we could show the search param
         setCookie("search","",1);
     } else {
@@ -143,7 +143,7 @@ $(document).ready(function () {
         var v_keyword = validate_search(keyword);
         if (v_keyword)
             setCookie("search", keyword, 1);
-        alert("getCookie(search): " + getCookie("search"));
+        //alert("getCookie(search): " + getCookie("search"));
         location.reload(true);
 
 
@@ -156,7 +156,7 @@ $(document).ready(function () {
         var v_keyword = validate_search(keyword);
         if (v_keyword)
             setCookie("search", keyword, 1);
-        alert("getCookie(search): " + getCookie("search"));
+        //alert("getCookie(search): " + getCookie("search"));
         location.reload(true);
 
     });
@@ -167,7 +167,7 @@ $(document).ready(function () {
 
         var suggestions = new Array();
         for (var i = 0; i < nom_productos.length; i++) {
-            suggestions.push(nom_productos[i].nombre);
+            suggestions.push(nom_productos[i].name_prod);
         }
         $("#keyword").autocomplete({
             source: suggestions,
@@ -204,33 +204,3 @@ function getCookie(cname) {
     }
     return 0;
 }
-
-/*
-$(document).ready(function () {
-    $.get("modules/products_frontend/controller/controller_products_frontend.class.php?num_pages=true", function (data, status) {
-        var json = JSON.parse(data);
-        var pages = json.pages;
-        //console.log(pages);
-        $("#results").load("modules/products_frontend/controller/controller_products_frontend.class.php"); //load initial records
-
-        // init bootpag
-        $(".pagination").bootpag({
-            total: pages,
-            page: 1,
-            maxVisible: 3,
-            next: 'next',
-            prev: 'prev'
-        }).on("page", function (e, num) {
-            e.preventDefault();
-            $("#results").load("modules/products_frontend/controller/controller_products_frontend.class.php", {'page_num': num});
-        });
-
-    }).fail(function (xhr) {
-        if(xhr.status  === 404){
-            $("#results").load("modules/products_frontend/controller/controller_products_frontend.class.php?view_error=false");
-        }else{
-            $("#results").load("modules/products_frontend/controller/controller_products_frontend.class.php?view_error=true");
-        }
-    });
-});
-*/

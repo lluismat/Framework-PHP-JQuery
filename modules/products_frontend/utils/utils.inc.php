@@ -48,12 +48,12 @@ function paint_template_products($arrData) {
             }
             print('<div class="table-cell">');
 
-            print ("<div class='media' id='".$product['cod_prod']."'>");
+            print ("<div class='id_prod' id='".$product['cod_prod']."'>");
             print('<div class="pull-left">');
             print('<img src="' . $product['avatar'] . '" class="icon-md" height="80" width="80">');
             print('</div>');
             print('<div class="media-body">');
-            print('<h3 class="media-heading">' . $product['name_prod'] . '</h3>');
+            print('<h3 class="name_product">' . $product['name_prod'] . '</h3>');
             print('<p>' . $product['description'] . '</p>');
             print('<h5> <strong>Price:&nbsp' . $product['price'] . '</strong><strong>€</strong> </h5>');
 
@@ -72,27 +72,6 @@ function paint_template_products($arrData) {
             }
         }
     }
-
-    /*
-    print ("<div id='list_prod' class='row text-center pad-row'>");
-    print ("<br>");
-    print ("<br>");
-    print ("<br>");
-    print ("<br>");
-    if (isset($arrData) && !empty($arrData)) {
-
-        foreach ($arrData as $product) {
-            //echo $productos['id'] . " " . $productos['nombre'] . "</br>";
-            //echo $productos['descripcion'] . " " . $productos['precio'] . "</br>";
-            print ("<div class='prod' id='".$product['cod_prod']."'>");
-            print ("<img class='prodImg' src='" . $product['avatar'] . "'alt='product' >");
-            print ("<p>" . $product['name_prod'] . "</p>");
-            print ("<p id='p1'>" . $product['color'] . "</p>");
-            print ("<p id='p2'>" . $product['price'] . "€</p>");
-            print ("</div><br/><br/>");
-        }
-    }
-    */
     print ("</div>");
     print ("</div>");
     print ("</section>");
