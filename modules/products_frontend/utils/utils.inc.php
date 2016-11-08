@@ -56,8 +56,6 @@ function paint_template_products($arrData) {
             print('<h3 class="name_product">' . $product['name_prod'] . '</h3>');
             print('<p>' . $product['description'] . '</p>');
             print('<h5> <strong>Price:&nbsp' . $product['price'] . '</strong><strong>€</strong> </h5>');
-
-
             print('</div>');
             print('</div>');
             print('<br>');

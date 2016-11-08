@@ -25,37 +25,24 @@
     <div class="pagination"></div>
 </center>
 
-<!-- modal window details_product -->
-<section id="product">
 
-    <div id="details_prod" hidden>
+<section>
+  <section >
+      <div class="details" id="product">
+              <div class="pull-left">
+                  <div id="img_prod" class="avatardetail"></div>
+              </div>
+              <div class="media-body">
+                  <div id="text-product">
+                  <h3 class="media-heading title-product"  id="name_prod"></h3>
+                  <p>
+                  <div id="color_prod"></div>
+                  </p>
+                  <p class="text-limited" id="description_prod" ></p>
+                  <br>
+                  <h5> <strong  id="price_prod"></strong> </h5>
+                  </div>
 
-        <!--<ol class="breadcrumb">
-            <li><a href="index.php?module=products">Products</a></li>
-            <li class="active">Details Product</li>
-        </ol>
-        <br>
-        <br>-->
-        <div id="details">
-
-
-            <div id="img_prod" class="prodImg"></div>
-
-            <div id="container">
-
-                <h4> <strong><div id="name_prod"></div></strong> </h4>
-                <br />
-                <p>
-                <div id="color_prod"></div>
-                </p>
-                <p>
-                <div id="description_prod"></div>
-                </p>
-                <h2> <strong><div id="price_prod"></div></strong> </h5>
-
-            </div>
-
-        </div>
-
-    </div>
-</section>
+              </div>
+      </div><br/><br/>
+  </section>

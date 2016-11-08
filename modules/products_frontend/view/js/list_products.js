@@ -1,6 +1,6 @@
 function validate_search(search_value){
   if(search_value.length > 0){
-    var regexp=/^[a-zA-Z0-9 .,]*$/;
+    var regexp = /^[0-9a-zA-Z]+[\-'\s]?[0-9a-zA-Z ]+$/;
     return regexp.test(search_value);
   }
   return false;
@@ -12,6 +12,7 @@ function refresh(){
 }
 
 function search(keyword){
+  
   var urlbase ="modules/products_frontend/controller/controller_products_frontend.class.php";
   if(!keyword)
   url=urlbase + "?num_pages=true";
@@ -48,7 +49,7 @@ function search(keyword){
           });
       } else {
           $("#results").load("modules/products_frontend/controller/controller_products_frontend.class.php?view_error=false"); //view_error=false
-          $('.pagination_prods').html('');
+          $('.pagination').html('');
           reset();
       }
       reset();
@@ -62,7 +63,7 @@ function search(keyword){
 }//fi function search
 
 function search_product(keyword) {
-    $.get("modules/products_frontend/controller/controller_products_frontend.class.php?name_prod=" + keyword, function (data, status) {
+    $.get("modules/products_frontend/controller/controller_products_frontend.class.php?name_products=" + keyword, function (data, status) {
         var json = JSON.parse(data);
         var product = json.product_autocomplete;
 
@@ -117,6 +118,7 @@ function count_product(keyword) {
 function reset() {
     $('#img_prod').html('');
     $('#name_prod').html('');
+    $('#color_prod').html('');
     $('#description_prod').html('');
     $('#price_prod').html('');
     $('#price_prod').removeClass("special");
@@ -163,11 +165,11 @@ $(document).ready(function () {
 
     $.get("modules/products_frontend/controller/controller_products_frontend.class.php?autocomplete=true", function (data, status) {
         var json = JSON.parse(data);
-        var nom_productos = json.nom_productos;
+        var name_products = json.nom_productos;
 
         var suggestions = new Array();
-        for (var i = 0; i < nom_productos.length; i++) {
-            suggestions.push(nom_productos[i].name_prod);
+        for (var i = 0; i < name_products.length; i++) {
+            suggestions.push(name_products[i].name_prod);
         }
         $("#keyword").autocomplete({
             source: suggestions,

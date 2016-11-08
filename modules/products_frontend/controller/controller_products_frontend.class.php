@@ -35,7 +35,6 @@ if ((isset($_GET["autocomplete"])) && ($_GET["autocomplete"] === "true")) {
 
 if (($_GET["name_products"])) {
     //filtrar $_GET["nom_product"]
-
     $result = filter_string($_GET["name_products"]);
     if ($result['resultado']) {
         $criteria = $result['datos'];
@@ -70,15 +69,15 @@ if (($_GET["name_products"])) {
 }
 ///////////////////mes parts////////////
 
-if (($_GET["count_product"])) {
-    //filtrar $_GET["count_product"]
+if (isset($_GET["count_product"])) {
+
     $result = filter_string($_GET["count_product"]);
     if ($result['resultado']) {
         $criteria = $result['datos'];
     } else {
         $criteria = '';
     }
-    $model_path = SITE_ROOT . 'modules/products_frontend/model/model/';
+    $model_path = SITE_ROOT . '/modules/products_frontend/model/model/';
     set_error_handler('ErrorHandler');
     try {
 
@@ -86,15 +85,15 @@ if (($_GET["count_product"])) {
             "column" => "name_prod",
             "like" => $criteria
         );
-        $total_rows = loadModel($model_path, "products_model", "count_like_products", $arrArgument);
+        $result = loadModel($model_path, "products_model", "count_like_products", $arrArgument);
         //throw new Exception(); //que entre en el catch
     } catch (Exception $e) {
         showErrorPage(2, "ERROR - 503 BD", 'HTTP/1.0 503 Service Unavailable', 503);
     }
     restore_error_handler();
 
-    if ($total_rows) {
-        $jsondata["num_products"] = $total_rows[0]["total"];
+    if ($result) {
+        $jsondata["num_products"] = $result[0]["total"];
         echo json_encode($jsondata);
         exit;
     } else {
@@ -103,57 +102,59 @@ if (($_GET["count_product"])) {
     }
 }
 
+
+//obtain num total pages
 if ((isset($_GET["num_pages"])) && ($_GET["num_pages"] === "true")) {
-    //filtrar $_GET["keyword"]
-    if (isset($_GET["keyword"])) {
-        $result = filter_string($_GET["keyword"]);
-        if ($result['resultado']) {
-            $criteria = $result['datos'];
-        } else {
-            $criteria = ' ';
-        }
+
+    if (isset($_GET['keyword'])) {
+      $result = filter_string($_GET['keyword']);
+      if ($result['resultado']) {
+        $criteria = $result['datos'];
+      } else {
+        $criteria = '';
+      }
     } else {
-        $criteria = ' ';
+      $criteria = '';
     }
+
     $item_per_page = 6;
-    $model_path = SITE_ROOT . 'modules/products_frontend/model/model/';
+    $model_path = SITE_ROOT . '/modules/products_frontend/model/model/';
+
+    //change work error apache
     set_error_handler('ErrorHandler');
+
     try {
-        //loadmodel
         $arrArgument = array(
             "column" => "name_prod",
             "like" => $criteria
         );
-
-        $resultado = loadModel($model_path, "products_model", "count_like_products", $arrArgument);
-
-
-        $resultado = $resultado[0]["total"];
-        $pages = ceil($resultado / $item_per_page); //break total records into pages
+        //throw new Exception();
+        $result = loadModel($model_path, "products_model", "count_like_products", $arrArgument);
+        $get_result = $result[0]["total"]; //total records
+        $pages = ceil($get_result / $item_per_page); //break total records into pages
+        //ceil redondea fracciones hacia arriba
     } catch (Exception $e) {
         showErrorPage(2, "ERROR - 503 BD", 'HTTP/1.0 503 Service Unavailable', 503);
     }
+    //change to defualt work error apache
     restore_error_handler();
 
-    if ($resultado) {
+    if ($get_result) {
         $jsondata["pages"] = $pages;
         echo json_encode($jsondata);
         exit;
     } else {
-        //if($get_total_rows){ //que lance error si no hay productos
         showErrorPage(2, "ERROR - 404 NO DATA", 'HTTP/1.0 404 Not Found', 404);
     }
-}
+}/////END num_pages
 
 if ((isset($_GET["view_error"])) && ($_GET["view_error"] === "true")) {
-    /* paint_template_error("ERROR BD");
-      die(); */
     showErrorPage(0, "ERROR - 503 BD Unavailable", 503);
 }
-if ((isset($_GET["view_error"])) && ($_GET["view_error"] ==="false")) {
-    //showErrorPage(0, "ERROR - 404 NO PRODUCTS");
+if ((isset($_GET["view_error"])) && ($_GET["view_error"] === "false")) {
     showErrorPage(3, "RESULTS NOT FOUND <br> Please, check over if you misspelled any letter of the search word");
 }
+///Coge el cod_prod
 if ($_GET["idProducto"]) {
 
     $result = filter_num_int($_GET["idProducto"]);
@@ -227,8 +228,6 @@ if (isset($_POST["keyword"])) {
         $resultado = loadModel($model_path, "products_model", "select_like_limit_products", $arrArgument);
 
         } catch (Exception $e) {
-        /* paint_template_error("ERROR BD");
-          die(); */
 
         showErrorPage(0, "ERROR - 503 BD Unavailable", 503);
     }
@@ -237,7 +236,6 @@ if (isset($_POST["keyword"])) {
     if ($resultado) {
         paint_template_products($resultado);
     } else {
-        //paint_template_error("NO PRODUCTS");
         showErrorPage(0, "ERROR - 404 NO PRODUCTS", 404);
     }
 }

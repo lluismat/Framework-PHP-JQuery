@@ -64,16 +64,19 @@ border-radius: 0px 5px 5px 0px;
 cursor: pointer;
 }
 
-/*****PAGINATION*****/
- .pagination{
-     text-align: center;
-     background-color:  crimson;
- }
- .BackHome{
-     float:  right;
-     font-size: 1.5em;
-     padding-right: 15px;
- }
+
+
+/****DETAILS******/
+
+.details{
+  position: relative;
+  left:25%;
+  display:block;
+  margin: 8px;
+  width: 500px;
+  height:150px;
+  text-align: center;
+}
 
  /*****************PRODUCTS****************/
 
@@ -112,10 +115,18 @@ cursor: pointer;
       -o-transition: 500ms;
       transition: 500ms;
   }
+
+  .img-product{
+      height:100px;
+      width:100px;
+      margin: 30px;
+      border: solid  5px;
+  }
+
   .name_product{
     margin-top:20px;
   }
-
+/*
  .prod {
      display:inline-block;
      margin: 8px;
@@ -150,7 +161,7 @@ cursor: pointer;
 
  .prodImg {
      display:block;
-     width: 100%;
+     width: 30%;
      height: 70%;
  }
 
@@ -175,6 +186,7 @@ cursor: pointer;
      height: 350px;
      vertical-align: top;
  }
+ */
 
  /**BREADCRUMB*/
  #list_prod ol li {

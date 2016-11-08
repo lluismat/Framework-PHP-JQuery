@@ -230,9 +230,6 @@ $("#date_c").datepicker({
 
                         var json = JSON.parse(data);
 
-
-                        //console.log(data);
-
                         if (json.res === true) {
 
                             var element;
