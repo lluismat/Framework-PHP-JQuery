@@ -19376,3 +19376,1769 @@ Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.ph
 08/11/16 08:29:51 PM | ERROR: [8] Constant MODEL_PATH already defined
 Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
  | products_frontend | response 200
+09/11/16 05:32:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:15 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:15 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:15 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:15 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:15 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:15 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:17 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:23 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:23 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:23 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:23 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:25 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:33 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:33 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:32:33 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:16 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:16 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:16 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:22 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:22 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:22 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:34 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:34 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:34 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:55 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:55 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:55 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:55 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:55 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:55 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:55 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:55 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:55 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:55 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:55 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 05:34:55 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:25 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:25 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:25 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:35 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:37 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:38 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:38 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:38 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:38 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:14:54 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:02 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:02 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:02 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:02 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:02 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:02 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:02 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:02 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:02 PM | error paint_template_search | products | response 200
+09/11/16 09:15:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:14 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:14 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:18 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:18 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:18 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:18 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:18 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:18 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:18 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:18 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:18 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:18 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:18 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:18 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:24 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:37 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:37 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:15:37 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:16:33 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:05 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:05 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:05 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:05 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:14 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:14 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:14 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:17:32 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:46 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:46 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:46 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:54 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:54 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:18:54 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:14 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:16 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:17 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:34 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:34 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:34 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:41 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:41 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:41 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:41 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:41 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:41 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:41 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:41 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:41 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:41 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:41 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:41 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:46 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:47 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:47 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:47 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:19:47 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:21:47 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:21:47 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:21:47 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:21:47 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:21:47 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:21:47 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:21:47 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:21:47 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:21:47 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:21:47 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:21:47 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:21:47 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:28 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:28 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:28 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:28 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:28 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:28 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:28 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:28 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:28 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:28 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:28 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:28 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:34 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:46 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:22:53 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:30 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:30 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:30 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:30 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:30 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:30 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:30 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:30 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:30 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:30 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:30 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:30 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:32 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:32 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:32 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:23:35 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:02 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:02 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:02 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:02 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:02 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:02 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:02 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:02 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:03 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:03 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:03 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:03 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:09 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:09 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:09 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:09 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:10 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:10 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:10 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:10 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:22 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:25 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:39 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:44 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:44 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:44 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:24:44 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:08 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:08 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:08 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:08 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:08 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:08 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:08 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:08 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:08 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:08 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:08 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:08 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:21 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:21 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:25:21 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:28:50 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:28:50 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:28:50 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:28:50 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:28:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:28:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:28:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:28:54 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:28:59 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:28:59 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:28:59 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:28:59 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:03 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:03 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:03 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:03 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:08 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:08 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:08 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:08 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:13 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:13 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:13 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:13 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:29:17 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:10 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:10 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:10 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:10 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:10 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:10 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:10 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:10 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:11 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:11 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:11 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:11 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:21 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:21 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:21 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:26 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:26 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:26 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:26 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:26 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:26 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:26 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:26 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:26 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:26 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:26 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:26 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:29 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:29 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:29 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:29 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:29 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:29 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:29 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:29 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:29 PM | error paint_template_search | products | response 200
+09/11/16 09:31:36 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:36 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:36 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:36 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:36 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:36 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:36 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:36 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:36 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:36 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:36 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:36 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:40 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:40 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:40 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:40 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:44 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:44 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:44 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:44 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:49 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:49 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:49 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:53 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:53 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:31:53 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:32:00 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:32:00 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:32:00 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:32:00 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:32:00 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:32:00 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:32:00 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:32:00 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:32:00 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/model/products_model.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:32:00 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products_frontend/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:32:00 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
+09/11/16 09:32:00 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
+ | products_frontend | response 200
