@@ -30,16 +30,6 @@
     				$arrData = $arrPassValue;
     			include_once($view_path);
     		} else {
-          /*
-          $log = Log::getInstance();
-    			$log->add_log_general("error loadView general", $_GET['module'], "response ".http_response_code());
-    			$log->add_log_user("error loadView general", "", $_GET['module'], "response ".http_response_code());//$msg, $username = "", $controller, $function
-
-    			$result = response_code(http_response_code());
-    			$arrData = $result;
-
-    			require_once $_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/view/inc/templates_error/'. "error" .'.php';
-*/
           $result = filter_num_int($rutaVista);
           if ($result['resultado']) {
               $rutaVista = $result['datos'];
@@ -53,7 +43,7 @@
 
           $result = response_code($rutaVista);
           $arrData = $result;
-          require_once 'view/includes/error.php';
+          require_once VIEW_PATH_INC_ERROR. $result['code'] .'.php';
           //exit();
 
     		}

@@ -1,5 +1,5 @@
 <?php
-class productsDAO {
+class products_dao {
 
     static $_instance;
 

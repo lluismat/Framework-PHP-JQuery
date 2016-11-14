@@ -3,7 +3,7 @@
         var id = this.getAttribute('id');
         //alert(id);
 
-        $.get("modules/products_frontend/controller/controller_products_frontend.class.php?idProducto=" + id, function (data, status) {
+        $.get("index.php?module=products_frontend&function=idProduct&idProducto=" + id, function (data, status) {
             var json = JSON.parse(data);
             var product = json.product;
 
@@ -50,6 +50,6 @@
 
         })
                 .fail(function (xhr) {
-                    $("#results").load("modules/products_frontend/controller/controller_products_frontend.class.php?view_error=true");
+                    $("#results").load("index.php?module=products_frontend&function=view_error_false&view_error=true");
                 });
     });

@@ -1,5 +1,6 @@
 <?php
-//I use this to avoid header problems
+require_once 'router/router.php';
+/*
 ob_start();
 session_start();
 $_SESSION['module'] = "";
@@ -30,3 +31,4 @@ if ( (isset($_GET['module'])) && (isset($_GET['view'])) ) {
 	}
 
 require_once("view/inc/footer.html");
+*/

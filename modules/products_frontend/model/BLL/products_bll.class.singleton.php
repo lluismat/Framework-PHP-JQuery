@@ -1,12 +1,12 @@
 <?php
-
+/*
 $path = $_SERVER['DOCUMENT_ROOT'] . '/proyecto_v3/';
 define('SITE_ROOT', $path);
 define('MODEL_PATH', SITE_ROOT . 'model/');
 
 require (MODEL_PATH . "Db.class.singleton.php");
 require(SITE_ROOT . "modules/products_frontend/model/DAO/products_dao.class.singleton.php");
-
+*/
 class products_bll {
 
     private $dao;
@@ -14,8 +14,8 @@ class products_bll {
     static $_instance;
 
     private function __construct() {
-        $this->dao = productsDAO::getInstance();
-        $this->db = Db::getInstance();
+        $this->dao = products_dao::getInstance();
+        $this->db = db::getInstance();
     }
 
     public static function getInstance() {
@@ -27,7 +27,7 @@ class products_bll {
     public function details_products_BLL($id) {
         return $this->dao->details_products_DAO($this->db,$id);
     }
-    
+
     public function select_column_products_BLL($arrArgument){
         return $this->dao->select_column_products_DAO($this->db,$arrArgument);
     }

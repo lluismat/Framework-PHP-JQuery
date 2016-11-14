@@ -28,7 +28,7 @@ function paint_template_error($message) {
 }
 
 function paint_template_products($arrData) {
-    print ("<script type='text/javascript' src='modules/products_frontend/view/js/modal_products.js'></script>");
+    print ("<script type='text/javascript' src='". PRODUCTS_JS_PATH. "/modal_products.js'></script>");
     print('<section id="services" >');
     print('<div class="container">');
 
