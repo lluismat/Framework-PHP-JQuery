@@ -5,16 +5,12 @@ class controller_products_frontend{
   public function __construct() {
       include(FUNCTIONS_PRODUCTS . "utils.inc.php");
       include(UTILS . "upload.php");
-      include(UTILS . "common.inc.php");
-      include LOG_DIR;
-    include(UTILS . "filters.inc.php");
-    include(UTILS . "utils.inc.php");
-    include(UTILS . "response_code.inc.php");
 
     $_SESSION['module'] = "products_frontend";
   }
 
   public function list_products() {
+
     require_once(VIEW_PATH_INC."header.php");
     require_once(VIEW_PATH_INC."menu.php");
 
@@ -40,7 +36,6 @@ class controller_products_frontend{
             echo json_encode($jsondata);
             exit;
         } else {
-
             showErrorPage(2, "ERROR - 404 NO DATA", 'HTTP/1.0 404 Not Found', 404);
         }
     }
@@ -63,7 +58,6 @@ class controller_products_frontend{
                 "like" => $criteria
             );
             $producto = loadModel(MODEL_PRODUCTS, "products_model", "select_like_products", $arrArgument);
-
 
             //throw new Exception(); //que entre en el catch
         } catch (Exception $e) {
@@ -115,7 +109,7 @@ class controller_products_frontend{
       }
     }
 
-    public function num_pages(){
+    public function num_pages_products(){
       //obtain num total pages
       if ((isset($_GET["num_pages"])) && ($_GET["num_pages"] === "true")) {
 
@@ -262,4 +256,3 @@ class controller_products_frontend{
       }
       }
     }
-}

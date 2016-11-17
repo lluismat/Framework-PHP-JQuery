@@ -37,13 +37,13 @@
               $rutaVista = http_response_code();
           }
 
-          $log = Log::getInstance();
+          $log = log::getInstance();
           $log->add_log_general("error loadView general", $_GET['module'], "response " . $rutaVista); //$text, $controller, $function
           $log->add_log_products("error loadView general", "", $_GET['module'], "response " . $rutaVista); //$msg, $username = "", $controller, $function
 
           $result = response_code($rutaVista);
           $arrData = $result;
-          require_once VIEW_PATH_INC_ERROR. $result['code'] .'.php';
+          require_once VIEW_PATH_INC_ERROR.'error.php';
           //exit();
 
     		}

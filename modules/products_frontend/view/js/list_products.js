@@ -11,9 +11,12 @@ function refresh(){
   $('.pagination').val ='';
 }
 
+
+
 function search(keyword){
 
   $.get("index.php?module=products_frontend&function=num_pages_products&num_pages=true&keyword="+keyword, function(data, status){
+      console.log(data);
       var json = JSON.parse(data);
       var pages = json.pages;
 
@@ -152,7 +155,7 @@ $(document).ready(function () {
 
     });
 
-    $.get("index.php?module=products_frontend&function=autocomplete_products&autocomplete=true", function (data, status) {
+    $.get("index.php?module=products_frontend&function=autocomplete&autocomplete=true", function (data, status) {
         var json = JSON.parse(data);
         var name_products = json.nom_productos;
 

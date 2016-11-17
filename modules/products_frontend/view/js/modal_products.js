@@ -23,31 +23,6 @@
             price_prod.innerHTML = "Price: " + product.price + " €";
             price_prod.setAttribute("class", "special");
 
-/*
-            $("#product").dialog({
-                width: 850, //<!-- ------------- ancho de la ventana -->
-                height: 500, //<!--  ------------- altura de la ventana -->
-                //show: "scale", //<!-- ----------- animación de la ventana al aparecer -->
-                //hide: "scale", //<!-- ----------- animación al cerrar la ventana -->
-                resizable: "false", //<!-- ------ fija o redimensionable si ponemos este valor a "true" -->
-                //position: "down",<!--  ------ posicion de la ventana en la pantalla (left, top, right...) -->
-                modal: "true", //<!-- ------------ si esta en true bloquea el contenido de la web mientras la ventana esta activa (muy elegante) -->
-                buttons: {
-                    Ok: function () {
-                        $(this).dialog("close");
-                    }
-                },
-                show: {
-                    effect: "blind",
-                    duration: 1000
-                },
-                hide: {
-                    effect: "explode",
-                    duration: 1000
-                }
-            });
-            */
-
         })
                 .fail(function (xhr) {
                     $("#results").load("index.php?module=products_frontend&function=view_error_false&view_error=true");

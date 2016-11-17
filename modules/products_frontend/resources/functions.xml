@@ -5,8 +5,8 @@
         <uri>list_products</uri>
     </function>
     <function>
-        <name>autocomplete_products</name>
-        <uri>autocomplete_products</uri>
+        <name>autocomplete</name>
+        <uri>autocomplete</uri>
     </function>
     <function>
         <name>nom_products</name>
@@ -17,8 +17,8 @@
         <uri>count_products</uri>
     </function>
     <function>
-        <name>num_pages</name>
-        <uri>num_pages</uri>
+        <name>num_pages_products</name>
+        <uri>num_pages_products</uri>
     </function>
     <function>
         <name>view_error_true</name>

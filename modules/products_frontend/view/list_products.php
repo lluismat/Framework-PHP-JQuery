@@ -1,4 +1,4 @@
-<script type="text/javascript" src="<?php echo PRODUCTS_JS_LIB_PATH ?>jquery.bootpag.min.js"></script>
+<script type="text/javascript" src="<?php echo PRODUCTS_JS_PATH ?>jquery.bootpag.min.js"></script>
 <script type="text/javascript" src="<?php echo PRODUCTS_JS_PATH ?>list_products.js" ></script>
 <section id='home' class='head-main-img'>
 <div class='container'>

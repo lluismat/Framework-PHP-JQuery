@@ -1,7 +1,10 @@
 <?php
-	require_once("paths.php");
-	include("utils/response_code.inc.php");
-	require 'autoload.php';
+require_once("paths.php");
+require 'autoload.php';
+include(UTILS . "common.inc.php");
+include(UTILS . "response_code.inc.php");
+include(UTILS . "filters.inc.php");
+include LOG_DIR;
 
 
 	if(PRODUCTION){ //estamos en producción

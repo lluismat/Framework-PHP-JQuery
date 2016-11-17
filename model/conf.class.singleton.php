@@ -1,9 +1,6 @@
 <?php
-	$path=$_SERVER['DOCUMENT_ROOT'].'/proyecto_v3/';
-    define('SITE_ROOT', $path);
-    define('MODEL_PATH',SITE_ROOT.'model/');
 
-    class Conf {
+    class conf {
         private $_userdb;
         private $_passdb;
         private $_hostdb;

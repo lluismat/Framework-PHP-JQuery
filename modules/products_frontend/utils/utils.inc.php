@@ -1,6 +1,6 @@
 <?php
 function paint_template_error($message) {
-    $log = Log::getInstance();
+    $log = log::getInstance();
     $log->add_log_general("error paint_template_error", "products", "response" . http_response_code()); //$text, $controller, $function
     $log->add_log_products("error paint_template_error", "", "products", "response" . http_response_code()); //$msg, $username = "", $controller, $function
 
@@ -75,7 +75,7 @@ function paint_template_products($arrData) {
     print ("</section>");
 }
 function paint_template_search($message) {
-    $log = Log::getInstance();
+    $log = log::getInstance();
     $log->add_log_general("error paint_template_search", "products", "response " . http_response_code()); //$text, $controller, $function
     $log->add_log_products("error paint_template_search", "", "products", "response " . http_response_code()); //$msg, $username = "", $controller, $function
 

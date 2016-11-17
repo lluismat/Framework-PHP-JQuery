@@ -1,12 +1,12 @@
 <?php
 
-class Log {
+class log {
 
     private $path;
     static $_instance;
 
     public function __construct() {
-        $this->path = GENERAL_LOG_DIR;
+      $this->path=GENERAL_LOG_DIR;
     }
 
     public static function getInstance() {
@@ -23,7 +23,7 @@ class Log {
 
     public function add_log_products($msg, $username = "", $controller, $function) {
         $date = date('d.m.Y h:i:s');
-        $log = $msg . " | " . $date . "  |  User:  " . $username . " | " . $controller . " | " . $function . "\n";
+        $log = $msg . " | " . $date . "  |  Product:  " . $username . " | " . $controller . " | " . $function . "\n";
         error_log($log, 3, PRODUCTS_LOG_DIR);
     }
 
