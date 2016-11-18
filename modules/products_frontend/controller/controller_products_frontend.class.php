@@ -144,7 +144,7 @@ class controller_products_frontend{
           }
           //change to defualt work error apache
           restore_error_handler();
-
+            
           if ($get_result) {
               $jsondata["pages"] = $pages;
               echo json_encode($jsondata);

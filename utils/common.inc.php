@@ -21,7 +21,7 @@
         }
     }
 
-    function loadView($rutaVista, $templateName, $arrPassValue = '') {
+    function loadView($rutaVista='', $templateName='', $arrPassValue = '') {
     		$view_path = $rutaVista . $templateName;
     		$arrData = '';
 

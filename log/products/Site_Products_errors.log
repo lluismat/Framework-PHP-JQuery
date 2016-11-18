@@ -21153,3 +21153,12 @@ Notice on line 3 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.ph
 ERROR: [8] Constant MODEL_PATH already defined
 Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.php
  | 09.11.2016 09:32:00  |  User:   | products_frontend | response 200
+error loadView general | 17.11.2016 06:20:57  |  Product:   | pr | response 400
+error loadView general | 17.11.2016 06:22:06  |  Product:   | pr | response 400
+ERROR - 404 NO DATA | 17.11.2016 06:22:17  |  Product:   |  | response 200
+error paint_template_error | 17.11.2016 06:22:17  |  Product:   | products | response200
+ERROR - 404 NO DATA | 17.11.2016 06:25:17  |  Product:   |  | response 200
+error paint_template_error | 17.11.2016 06:25:17  |  Product:   | products | response200
+ERROR - 404 NO DATA | 17.11.2016 06:25:28  |  Product:   |  | response 200
+error paint_template_error | 17.11.2016 06:25:28  |  Product:   | products | response200
+error loadView general | 17.11.2016 06:27:33  |  Product:   | prod | response 400

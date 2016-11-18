@@ -6,7 +6,7 @@ class log {
     static $_instance;
 
     public function __construct() {
-      $this->path=GENERAL_LOG_DIR;
+      $this->path= GENERAL_LOG_DIR;
     }
 
     public static function getInstance() {
