@@ -21151,3 +21151,75 @@ Notice on line 4 in file /var/www/html/proyecto_v3/model/Conf.class.singleton.ph
 17/11/16 06:25:28 PM | ERROR - 404 NO DATA |  | response 200
 17/11/16 06:25:28 PM | error paint_template_error | products | response200
 17/11/16 06:27:33 PM | error loadView general | prod | response 400
+18/11/16 12:16:30 PM | error loadView general | products_front | response 400
+18/11/16 12:16:31 PM | ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'lluismat'@'localhost' (using password: NO)
+Warning on line 44 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | products_frontend | response 200
+18/11/16 12:16:31 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 45 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | products_frontend | response 200
+18/11/16 12:16:31 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 49 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | products_frontend | response 200
+18/11/16 12:16:31 PM | ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'lluismat'@'localhost' (using password: NO)
+Warning on line 44 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | products_frontend | response 200
+18/11/16 12:16:31 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 45 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | products_frontend | response 200
+18/11/16 12:16:31 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 49 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | products_frontend | response 200
+18/11/16 12:16:34 PM | ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'lluismat'@'localhost' (using password: NO)
+Warning on line 44 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | products_frontend | response 200
+18/11/16 12:16:34 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 45 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | products_frontend | response 200
+18/11/16 12:16:34 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 49 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | products_frontend | response 200
+18/11/16 12:16:34 PM | ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'lluismat'@'localhost' (using password: NO)
+Warning on line 44 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | products_frontend | response 200
+18/11/16 12:16:34 PM | ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 45 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | products_frontend | response 200
+18/11/16 12:16:34 PM | ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 49 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | products_frontend | response 200
+18/11/16 12:18:58 PM | ERROR - 404 NO DATA |  | response 200
+18/11/16 12:18:58 PM | error paint_template_error | products | response200
+18/11/16 01:02:37 PM | ERROR - 404 NO DATA |  | response 200
+18/11/16 01:02:37 PM | error paint_template_error | products | response200
+18/11/16 01:51:14 PM | ERROR - 404 NO DATA |  | response 200
+18/11/16 01:51:14 PM | error paint_template_error | products | response200
+20/11/16 12:32:46 PM | ERROR - 404 NO DATA |  | response 200
+20/11/16 12:32:46 PM | error paint_template_error | products | response200
+20/11/16 12:43:12 PM | ERROR - 404 NO DATA |  | response 200
+20/11/16 12:43:12 PM | error paint_template_error | products | response200
+20/11/16 07:12:28 PM | ERROR - 404 NO DATA |  | response 200
+20/11/16 07:12:28 PM | error paint_template_error | products | response200
+20/11/16 07:15:04 PM | ERROR - 404 NO DATA |  | response 200
+20/11/16 07:15:31 PM | ERROR - 404 NO DATA |  | response 200
+20/11/16 07:24:38 PM | ERROR - 404 NO DATA |  | response 200
+20/11/16 07:24:38 PM | error paint_template_error | products | response200
+20/11/16 07:36:50 PM | ERROR - 503 BD |  | response 200
+20/11/16 07:36:50 PM | ERROR - 503 BD |  | response 200
+20/11/16 07:36:50 PM | error paint_template_error | products | response200
+20/11/16 07:36:52 PM | ERROR - 503 BD |  | response 200
+20/11/16 07:36:52 PM | ERROR - 503 BD |  | response 200
+20/11/16 07:36:52 PM | error paint_template_error | products | response200
+20/11/16 07:50:07 PM | ERROR - 404 NO DATA |  | response 200
+20/11/16 07:50:07 PM | error paint_template_error | products | response200
+20/11/16 07:51:32 PM | ERROR - 404 NO DATA |  | response 200
+20/11/16 07:51:32 PM | error paint_template_error | products | response200
+20/11/16 07:59:39 PM | ERROR - 404 NO DATA |  | response 200
+20/11/16 07:59:39 PM | error paint_template_error | products | response200
+20/11/16 08:04:40 PM | error loadView general | products_frontend | response 400
+20/11/16 08:06:27 PM | error loadView general | products_frontend | response 400
+20/11/16 08:12:02 PM | error loadView general | products_frontend | response 400
+20/11/16 08:16:33 PM | error loadView general | products_frontend | response 400
+20/11/16 08:16:34 PM | error loadView general | products_frontend | response 400
+20/11/16 08:18:20 PM | error loadView general | products_frontend | response 400
+20/11/16 08:18:23 PM | error loadView general | products_frontend | response 400

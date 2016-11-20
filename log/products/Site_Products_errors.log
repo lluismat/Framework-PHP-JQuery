@@ -21162,3 +21162,75 @@ error paint_template_error | 17.11.2016 06:25:17  |  Product:   | products | res
 ERROR - 404 NO DATA | 17.11.2016 06:25:28  |  Product:   |  | response 200
 error paint_template_error | 17.11.2016 06:25:28  |  Product:   | products | response200
 error loadView general | 17.11.2016 06:27:33  |  Product:   | prod | response 400
+error loadView general | 18.11.2016 12:16:30  |  Product:   | products_front | response 400
+ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'lluismat'@'localhost' (using password: NO)
+Warning on line 44 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | 18.11.2016 12:16:31  |  Product:   | products_frontend | response 200
+ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 45 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | 18.11.2016 12:16:31  |  Product:   | products_frontend | response 200
+ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 49 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | 18.11.2016 12:16:31  |  Product:   | products_frontend | response 200
+ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'lluismat'@'localhost' (using password: NO)
+Warning on line 44 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | 18.11.2016 12:16:31  |  Product:   | products_frontend | response 200
+ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 45 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | 18.11.2016 12:16:31  |  Product:   | products_frontend | response 200
+ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 49 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | 18.11.2016 12:16:31  |  Product:   | products_frontend | response 200
+ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'lluismat'@'localhost' (using password: NO)
+Warning on line 44 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | 18.11.2016 12:16:34  |  Product:   | products_frontend | response 200
+ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 45 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | 18.11.2016 12:16:34  |  Product:   | products_frontend | response 200
+ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 49 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | 18.11.2016 12:16:34  |  Product:   | products_frontend | response 200
+ERROR: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'lluismat'@'localhost' (using password: NO)
+Warning on line 44 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | 18.11.2016 12:16:34  |  Product:   | products_frontend | response 200
+ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 45 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | 18.11.2016 12:16:34  |  Product:   | products_frontend | response 200
+ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 49 in file /var/www/html/proyecto_v3/model/db.class.singleton.php
+ | 18.11.2016 12:16:34  |  Product:   | products_frontend | response 200
+ERROR - 404 NO DATA | 18.11.2016 12:18:58  |  Product:   |  | response 200
+error paint_template_error | 18.11.2016 12:18:58  |  Product:   | products | response200
+ERROR - 404 NO DATA | 18.11.2016 01:02:37  |  Product:   |  | response 200
+error paint_template_error | 18.11.2016 01:02:37  |  Product:   | products | response200
+ERROR - 404 NO DATA | 18.11.2016 01:51:14  |  Product:   |  | response 200
+error paint_template_error | 18.11.2016 01:51:14  |  Product:   | products | response200
+ERROR - 404 NO DATA | 20.11.2016 12:32:46  |  Product:   |  | response 200
+error paint_template_error | 20.11.2016 12:32:46  |  Product:   | products | response200
+ERROR - 404 NO DATA | 20.11.2016 12:43:12  |  Product:   |  | response 200
+error paint_template_error | 20.11.2016 12:43:12  |  Product:   | products | response200
+ERROR - 404 NO DATA | 20.11.2016 07:12:28  |  Product:   |  | response 200
+error paint_template_error | 20.11.2016 07:12:28  |  Product:   | products | response200
+ERROR - 404 NO DATA | 20.11.2016 07:15:04  |  Product:   |  | response 200
+ERROR - 404 NO DATA | 20.11.2016 07:15:31  |  Product:   |  | response 200
+ERROR - 404 NO DATA | 20.11.2016 07:24:38  |  Product:   |  | response 200
+error paint_template_error | 20.11.2016 07:24:38  |  Product:   | products | response200
+ERROR - 503 BD | 20.11.2016 07:36:50  |  Product:   |  | response 200
+ERROR - 503 BD | 20.11.2016 07:36:50  |  Product:   |  | response 200
+error paint_template_error | 20.11.2016 07:36:50  |  Product:   | products | response200
+ERROR - 503 BD | 20.11.2016 07:36:52  |  Product:   |  | response 200
+ERROR - 503 BD | 20.11.2016 07:36:52  |  Product:   |  | response 200
+error paint_template_error | 20.11.2016 07:36:52  |  Product:   | products | response200
+ERROR - 404 NO DATA | 20.11.2016 07:50:07  |  Product:   |  | response 200
+error paint_template_error | 20.11.2016 07:50:07  |  Product:   | products | response200
+ERROR - 404 NO DATA | 20.11.2016 07:51:32  |  Product:   |  | response 200
+error paint_template_error | 20.11.2016 07:51:32  |  Product:   | products | response200
+ERROR - 404 NO DATA | 20.11.2016 07:59:39  |  Product:   |  | response 200
+error paint_template_error | 20.11.2016 07:59:39  |  Product:   | products | response200
+error loadView general | 20.11.2016 08:04:40  |  Product:   | products_frontend | response 400
+error loadView general | 20.11.2016 08:06:27  |  Product:   | products_frontend | response 400
+error loadView general | 20.11.2016 08:12:02  |  Product:   | products_frontend | response 400
+error loadView general | 20.11.2016 08:16:33  |  Product:   | products_frontend | response 400
+error loadView general | 20.11.2016 08:16:34  |  Product:   | products_frontend | response 400
+error loadView general | 20.11.2016 08:18:20  |  Product:   | products_frontend | response 400
+error loadView general | 20.11.2016 08:18:23  |  Product:   | products_frontend | response 400

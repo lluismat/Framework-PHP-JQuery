@@ -37,17 +37,9 @@ function paint_template_products($arrData) {
     if (isset($arrData) && !empty($arrData)) {
         $i = 0;
         foreach ($arrData as $product) {
-            $i++;
-            if (count($arrData) % 2 !== 0 && i >= count($arrData))
-                print( '<div class="odd_prod">');
-            else {
-                if ($i % 2 != 0)
-                    print( '<div class="table-row">');
-                else
-                    print('<div class="table-separator"></div>');
-            }
-            print('<div class="table-cell">');
 
+            print( '<div class="table-row">');
+            print('<div class="table-cell">');
             print ("<div class='id_prod' id='".$product['cod_prod']."'>");
             print('<div class="pull-left">');
             print('<img src="' . $product['avatar'] . '" class="icon-md" height="80" width="80">');
@@ -59,15 +51,9 @@ function paint_template_products($arrData) {
             print('</div>');
             print('</div>');
             print('<br>');
-
-
             print('</div>');
-            if (count($arrData) % 2 !== 0 && i >= count($arrData))
-                print( '</div>');
-            else {
-                if ($i % 2 == 0)
-                    print('</div> <br>');
-            }
+            print( '</div>');
+
         }
     }
     print ("</div>");

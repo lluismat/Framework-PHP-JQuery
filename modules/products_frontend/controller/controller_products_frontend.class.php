@@ -23,9 +23,9 @@ class controller_products_frontend{
   public function autocomplete(){
     if ((isset($_GET["autocomplete"])) && ($_GET["autocomplete"] === "true")) {
         set_error_handler('ErrorHandler');
-
+        $model_path=MODEL_PRODUCTS;
         try {
-            $nameProducts = loadModel(MODEL_PRODUCTS, "products_model", "select_column_products", "name_prod");
+            $nameProducts = loadModel($model_path, "products_model", "select_column_products", "name_prod");
         } catch (Exception $e) {
             showErrorPage(2, "ERROR - 503 BD", 'HTTP/1.0 503 Service Unavailable', 503);
         }
@@ -41,7 +41,7 @@ class controller_products_frontend{
     }
   }
 
-  public function nom_products(){
+  public function name_products(){
     if (($_GET["name_products"])) {
         //filtrar $_GET["nom_product"]
         $result = filter_string($_GET["name_products"]);
@@ -50,6 +50,7 @@ class controller_products_frontend{
         } else {
             $criteria = '';
         }
+        $model_path=MODEL_PRODUCTS;
         set_error_handler('ErrorHandler');
         try {
 
@@ -57,7 +58,7 @@ class controller_products_frontend{
                 "column" => "name_prod",
                 "like" => $criteria
             );
-            $producto = loadModel(MODEL_PRODUCTS, "products_model", "select_like_products", $arrArgument);
+            $producto = loadModel($model_path, "products_model", "select_like_products", $arrArgument);
 
             //throw new Exception(); //que entre en el catch
         } catch (Exception $e) {
@@ -84,6 +85,7 @@ class controller_products_frontend{
         } else {
             $criteria = '';
         }
+        $model_path=MODEL_PRODUCTS;
         set_error_handler('ErrorHandler');
         try {
 
@@ -91,7 +93,7 @@ class controller_products_frontend{
                 "column" => "name_prod",
                 "like" => $criteria
             );
-            $result = loadModel(MODEL_PRODUCTS, "products_model", "count_like_products", $arrArgument);
+            $result = loadModel($model_path, "products_model", "count_like_products", $arrArgument);
             //throw new Exception(); //que entre en el catch
         } catch (Exception $e) {
             showErrorPage(2, "ERROR - 503 BD", 'HTTP/1.0 503 Service Unavailable', 503);
@@ -128,14 +130,14 @@ class controller_products_frontend{
 
           //change work error apache
           set_error_handler('ErrorHandler');
-
+          $model_path=MODEL_PRODUCTS;
           try {
               $arrArgument = array(
                   "column" => "name_prod",
                   "like" => $criteria
               );
               //throw new Exception();
-              $result = loadModel(MODEL_PRODUCTS, "products_model", "count_like_products", $arrArgument);
+              $result = loadModel($model_path, "products_model", "count_like_products", $arrArgument);
               $get_result = $result[0]["total"]; //total records
               $pages = ceil($get_result / $item_per_page); //break total records into pages
               //ceil redondea fracciones hacia arriba
@@ -144,7 +146,7 @@ class controller_products_frontend{
           }
           //change to defualt work error apache
           restore_error_handler();
-            
+
           if ($get_result) {
               $jsondata["pages"] = $pages;
               echo json_encode($jsondata);
@@ -178,10 +180,11 @@ class controller_products_frontend{
               $id = 1;
           }
           set_error_handler('ErrorHandler');
+          $model_path=MODEL_PRODUCTS;
           try {
               $producto = false;
 
-              $producto = loadModel(MODEL_PRODUCTS, "products_model", "details_products", $id);
+              $producto = loadModel($model_path, "products_model", "details_products", $id);
           } catch (Exception $e) {
               //header('HTTP/1.0 503 Service Unavailable', true, 503);
               // loadView("503");
@@ -239,9 +242,10 @@ class controller_products_frontend{
           "limit" => $limit
       );
       set_error_handler('ErrorHandler');
+      $model_path=MODEL_PRODUCTS;
       try {
 
-          $resultado = loadModel(MODEL_PRODUCTS, "products_model", "select_like_limit_products", $arrArgument);
+          $resultado = loadModel($model_path, "products_model", "select_like_limit_products", $arrArgument);
 
           } catch (Exception $e) {
 

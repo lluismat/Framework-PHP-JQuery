@@ -5,7 +5,7 @@ $path=$_SERVER['DOCUMENT_ROOT'].'/proyecto_v3/';
 define('SITE_ROOT', $path);
 
 //SITE_PATH
-   define('SITE_PATH','https://'.$_SERVER['HTTP_HOST'].'/proyecto_v3/');
+   define('SITE_PATH','http://'.$_SERVER['HTTP_HOST'].'/proyecto_v3/');
 
 //CSS
 define('CSS_PATH', SITE_PATH . 'view/css/');

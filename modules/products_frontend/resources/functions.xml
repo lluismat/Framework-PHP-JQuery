@@ -9,8 +9,8 @@
         <uri>autocomplete</uri>
     </function>
     <function>
-        <name>nom_products</name>
-        <uri>nom_products</uri>
+        <name>name_products</name>
+        <uri>name_products</uri>
     </function>
     <function>
         <name>count_products</name>

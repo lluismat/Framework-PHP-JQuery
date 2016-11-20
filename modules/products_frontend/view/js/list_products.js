@@ -11,16 +11,29 @@ function refresh(){
   $('.pagination').val ='';
 }
 
-
-
 function search(keyword){
 
-  $.get("index.php?module=products_frontend&function=num_pages_products&num_pages=true&keyword="+keyword, function(data, status){
+  var urlbase = "index.php?module=products_frontend&function=num_pages_products";
+      if (!keyword){
+          url = urlbase + "&num_pages=true";
+      } else {
+          url = urlbase + "&num_pages=true&keyword=" + keyword;
+      }
+
+      $.get(url, function (data, status) {
+
       console.log(data);
       var json = JSON.parse(data);
       var pages = json.pages;
 
-$("#results").load("index.php?module=products_frontend&function=obtain_products&keyword="+keyword);
+      urlbase = "index.php?module=products_frontend&function=obtain_products";
+        if (!keyword){
+            url = urlbase;
+        } else {
+            url = urlbase + "&keyword=" + keyword;
+        }
+
+$("#results").load(url);
 
 if (pages !== 0) {
     refresh();
@@ -55,7 +68,7 @@ reset();
 }//fi function search
 
 function search_product(keyword) {
-    $.get("index.php?module=products_frontend&function=nom_products&nom_product="+keyword, function(data, status){
+    $.get("index.php?module=products_frontend&function=name_products&name_products="+keyword, function(data, status){
         var json = JSON.parse(data);
         var product = json.product_autocomplete;
 
@@ -81,12 +94,10 @@ function search_product(keyword) {
     });
 }//fi function search_product
 
-
 function count_product(keyword) {
     $.get("index.php?module=products_frontend&function=count_products&count_product=" + keyword, function (data, status) {
         var json = JSON.parse(data);
         var num_products = json.num_products;
-        //alert("num_products: " + num_products);
 
         if (num_products == 0) {
             $("#results").load("index.php?module=products_frontend&function=view_error_false&view_error=false"); //view_error=false
@@ -100,7 +111,7 @@ function count_product(keyword) {
             search(keyword);
         }
     }).fail(function () {
-        $("#results").load("index.php?module=products_frontend&function=view_error_false&view_error=true"); //view_error=true
+        $("#results").load("index.php?module=products_frontend&function=view_error_true&view_error=true"); //view_error=false
         $('.pagination').html('');
         reset();
     });
@@ -178,6 +189,7 @@ $(document).ready(function () {
     });
 
 });
+
 
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
