@@ -10,6 +10,9 @@ define('SITE_ROOT', $path);
 //CSS
 define('CSS_PATH', SITE_PATH . 'view/css/');
 
+//IMG
+define('IMG_PATH', SITE_PATH . 'view/img/');
+
 //log
 define('LOG_DIR',SITE_ROOT.'classes/log.class.singleton.php');
 define('PRODUCTS_LOG_DIR',SITE_ROOT.'log/products/Site_Products_errors.log');
