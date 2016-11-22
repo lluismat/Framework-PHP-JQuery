@@ -21223,3 +21223,41 @@ Warning on line 49 in file /var/www/html/proyecto_v3/model/db.class.singleton.ph
 20/11/16 08:16:34 PM | error loadView general | products_frontend | response 400
 20/11/16 08:18:20 PM | error loadView general | products_frontend | response 400
 20/11/16 08:18:23 PM | error loadView general | products_frontend | response 400
+22/11/16 11:16:06 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+22/11/16 11:16:06 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 5 in file /var/www/html/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+22/11/16 11:16:06 AM | ERROR: [2] require(/var/www/html/proyecto_v3/model/Db.class.singleton.php): failed to open stream: No such file or directory
+Warning on line 7 in file /var/www/html/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+22/11/16 11:16:06 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+22/11/16 11:16:06 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 5 in file /var/www/html/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+22/11/16 11:16:06 AM | ERROR: [2] require(/var/www/html/proyecto_v3/model/Db.class.singleton.php): failed to open stream: No such file or directory
+Warning on line 7 in file /var/www/html/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+22/11/16 11:17:46 AM | error loadView general | products_fro | response 400
+22/11/16 11:17:50 AM | error loadView general | services | response 400
+22/11/16 12:22:06 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+22/11/16 12:22:06 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 5 in file /var/www/html/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+22/11/16 12:22:06 PM | ERROR: [2] require(/var/www/html/proyecto_v3/model/Db.class.singleton.php): failed to open stream: No such file or directory
+Warning on line 7 in file /var/www/html/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+22/11/16 12:22:06 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 4 in file /var/www/html/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+22/11/16 12:22:06 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 5 in file /var/www/html/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200
+22/11/16 12:22:06 PM | ERROR: [2] require(/var/www/html/proyecto_v3/model/Db.class.singleton.php): failed to open stream: No such file or directory
+Warning on line 7 in file /var/www/html/proyecto_v3/modules/products/model/BLL/products_bll.class.singleton.php
+ | products_frontend | response 200

@@ -7,7 +7,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php?module=main">PROJECT 1</a>
+          <a class="navbar-brand" href="<?php amigable('?module=main'); ?>">PROJECT 1</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -16,7 +16,7 @@
                        echo'active';
                     else
                        echo 'deactivate';
-              ?>"><a href="index.php?module=main">HOME</a></li>
+              ?>"><a href="<?php amigable('?module=main'); ?>">HOME</a></li>
               <li class="
               <?php if($_GET['module'] === 'services')
                        echo'active';
@@ -34,7 +34,7 @@
                        echo'active';
                     else
                        echo 'deactivate';
-              ?>"><a href="index.php?module=products_frontend&function=list_products">LIST PRODUCTS</a></li>
+              ?>"><a href="<?php amigable('?module=products_frontend&function=list_products'); ?>">LIST PRODUCTS</a></li>
               <li class="
               <?php if($_GET['module'] === 'portfolio')
                        echo'active';

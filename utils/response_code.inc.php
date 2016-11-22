@@ -111,6 +111,12 @@ function showErrorPage($code = 0, $message = "", $http = "", $num_http = 0) {
             paint_template_search($message);
             exit;
             break;
+        case 4:
+        require_once(VIEW_PATH_INC . "header.php");
+        require_once(VIEW_PATH_INC . "menu.php");
+        loadView($num_http);
+        require_once(VIEW_PATH_INC . "footer.html");
+        break;
     }
 }
 

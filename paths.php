@@ -33,6 +33,9 @@ define('MEDIA_PATH',SITE_ROOT.'media/');
 //utils
 define('UTILS',SITE_ROOT.'utils/');
 
+//amigables
+define('URL_AMIGABLES', TRUE);
+
 //model specialists
 define('FUNCTIONS_PRODUCTS',SITE_ROOT.'modules/products_frontend/utils/');
 define('MODEL_PATH_PRODUCTS',SITE_ROOT.'modules/products_frontend/model/');

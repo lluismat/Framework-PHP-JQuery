@@ -1,9 +1,11 @@
 <?php
 require_once("paths.php");
 require 'autoload.php';
+
 include(UTILS . "common.inc.php");
 include(UTILS . "response_code.inc.php");
 include(UTILS . "filters.inc.php");
+include(UTILS . "utils.inc.php");
 include LOG_DIR;
 
 
@@ -19,20 +21,17 @@ include LOG_DIR;
 	session_start();
 	$_SESSION['module'] = "";
 
-
 	function handlerRouter() {
 	    if (!empty($_GET['module'])) {
 			$URI_module = $_GET['module'];
 		} else {
 			$URI_module = 'main';
 		}
-
 		if (!empty($_GET['function'])) {
 			$URI_function = $_GET['function'];
 		} else {
 			$URI_function = 'begin';
 		}
-
 	    handlerModule($URI_module, $URI_function);
 	}
 
@@ -53,7 +52,7 @@ include LOG_DIR;
 
 				} else {
 					//die($URI_module . ' - Controlador no encontrado');
-					showErrorPage(1, "", 'HTTP/1.0 400 Bad Request', 400);
+					showErrorPage(4, "", 'HTTP/1.0 400 Bad Request', 400);
 				}
 	            handlerfunction(((String)$module->name), $obj, $URI_function);
 	            break;
@@ -61,7 +60,7 @@ include LOG_DIR;
 	    }
 	    if (!$exist) {
 	        //die($URI_module . ' - Controlador no encontrado');
-	        showErrorPage(1, "", 'HTTP/1.0 400 Bad Request', 400);
+	        showErrorPage(4, "", 'HTTP/1.0 400 Bad Request', 400);
 	    }
 	}
 
@@ -78,7 +77,7 @@ include LOG_DIR;
 	    }
 	    if (!$exist) {
 	        //die($URI_function . ' - Funci&oacute;n no encontrada');
-	        showErrorPage(1, "", 'HTTP/1.0 400 Bad Request', 400);
+	        showErrorPage(4, "", 'HTTP/1.0 400 Bad Request', 400);
 	    } else {
 	    	//$obj->$event();
 			call_user_func(array($obj,$event));

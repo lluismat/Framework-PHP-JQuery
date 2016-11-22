@@ -4,7 +4,6 @@ class controller_products_frontend{
 
   public function __construct() {
       include(FUNCTIONS_PRODUCTS . "utils.inc.php");
-      include(UTILS . "upload.php");
 
     $_SESSION['module'] = "products_frontend";
   }
@@ -21,11 +20,10 @@ class controller_products_frontend{
   }
 
   public function autocomplete(){
-    if ((isset($_GET["autocomplete"])) && ($_GET["autocomplete"] === "true")) {
+    if ((isset($_POST["autocomplete"])) && ($_POST["autocomplete"] === "true")) {
         set_error_handler('ErrorHandler');
-        $model_path=MODEL_PRODUCTS;
         try {
-            $nameProducts = loadModel($model_path, "products_model", "select_column_products", "name_prod");
+            $nameProducts = loadModel(MODEL_PRODUCTS, "products_model", "select_column_products", "name_prod");
         } catch (Exception $e) {
             showErrorPage(2, "ERROR - 503 BD", 'HTTP/1.0 503 Service Unavailable', 503);
         }
@@ -42,15 +40,14 @@ class controller_products_frontend{
   }
 
   public function name_products(){
-    if (($_GET["name_products"])) {
+    if (($_POST["name_products"])) {
         //filtrar $_GET["nom_product"]
-        $result = filter_string($_GET["name_products"]);
+        $result = filter_string($_POST["name_products"]);
         if ($result['resultado']) {
             $criteria = $result['datos'];
         } else {
             $criteria = '';
         }
-        $model_path=MODEL_PRODUCTS;
         set_error_handler('ErrorHandler');
         try {
 
@@ -58,7 +55,7 @@ class controller_products_frontend{
                 "column" => "name_prod",
                 "like" => $criteria
             );
-            $producto = loadModel($model_path, "products_model", "select_like_products", $arrArgument);
+            $producto = loadModel(MODEL_PRODUCTS, "products_model", "select_like_products", $arrArgument);
 
             //throw new Exception(); //que entre en el catch
         } catch (Exception $e) {
@@ -77,15 +74,14 @@ class controller_products_frontend{
   }
 
   public function count_products(){
-    if (isset($_GET["count_product"])) {
+    if (isset($_POST["count_product"])) {
 
-        $result = filter_string($_GET["count_product"]);
+        $result = filter_string($_POST["count_product"]);
         if ($result['resultado']) {
             $criteria = $result['datos'];
         } else {
             $criteria = '';
         }
-        $model_path=MODEL_PRODUCTS;
         set_error_handler('ErrorHandler');
         try {
 
@@ -93,7 +89,7 @@ class controller_products_frontend{
                 "column" => "name_prod",
                 "like" => $criteria
             );
-            $result = loadModel($model_path, "products_model", "count_like_products", $arrArgument);
+            $result = loadModel(MODEL_PRODUCTS, "products_model", "count_like_products", $arrArgument);
             //throw new Exception(); //que entre en el catch
         } catch (Exception $e) {
             showErrorPage(2, "ERROR - 503 BD", 'HTTP/1.0 503 Service Unavailable', 503);
@@ -113,10 +109,10 @@ class controller_products_frontend{
 
     public function num_pages_products(){
       //obtain num total pages
-      if ((isset($_GET["num_pages"])) && ($_GET["num_pages"] === "true")) {
+      if ((isset($_POST["num_pages"])) && ($_POST["num_pages"] === "true")) {
 
-          if (isset($_GET['keyword'])) {
-            $result = filter_string($_GET['keyword']);
+          if (isset($_POST['keyword'])) {
+            $result = filter_string($_POST['keyword']);
             if ($result['resultado']) {
               $criteria = $result['datos'];
             } else {
@@ -130,14 +126,13 @@ class controller_products_frontend{
 
           //change work error apache
           set_error_handler('ErrorHandler');
-          $model_path=MODEL_PRODUCTS;
           try {
               $arrArgument = array(
                   "column" => "name_prod",
                   "like" => $criteria
               );
               //throw new Exception();
-              $result = loadModel($model_path, "products_model", "count_like_products", $arrArgument);
+              $result = loadModel(MODEL_PRODUCTS, "products_model", "count_like_products", $arrArgument);
               $get_result = $result[0]["total"]; //total records
               $pages = ceil($get_result / $item_per_page); //break total records into pages
               //ceil redondea fracciones hacia arriba
@@ -158,33 +153,32 @@ class controller_products_frontend{
     }
 
     public function view_error_true(){
-      if ((isset($_GET["view_error"])) && ($_GET["view_error"] === "true")) {
+      if ((isset($_POST["view_error"])) && ($_POST["view_error"] === "true")) {
           showErrorPage(0, "ERROR - 503 BD Unavailable", 503);
       }
     }
 
     public function view_error_false(){
-      if ((isset($_GET["view_error"])) && ($_GET["view_error"] === "false")) {
+      if ((isset($_POST["view_error"])) && ($_POST["view_error"] === "false")) {
           showErrorPage(3, "RESULTS NOT FOUND <br> Please, check over if you misspelled any letter of the search word");
       }
     }
 
     public function idProduct(){
       ///Coge el cod_prod
-      if ($_GET["idProducto"]) {
+      if ($_POST["idProducto"]) {
 
-          $result = filter_num_int($_GET["idProducto"]);
+          $result = filter_num_int($_POST["idProducto"]);
           if ($result['resultado']) {
               $id = $result['datos'];
           } else {
               $id = 1;
           }
           set_error_handler('ErrorHandler');
-          $model_path=MODEL_PRODUCTS;
           try {
               $producto = false;
 
-              $producto = loadModel($model_path, "products_model", "details_products", $id);
+              $producto = loadModel(MODEL_PRODUCTS, "products_model", "details_products", $id);
           } catch (Exception $e) {
               //header('HTTP/1.0 503 Service Unavailable', true, 503);
               // loadView("503");
@@ -212,8 +206,8 @@ class controller_products_frontend{
       }
       $item_per_page = 6;
 
-      if (isset($_GET["keyword"])) {
-          $result = filter_string($_GET["keyword"]);
+      if (isset($_POST["keyword"])) {
+          $result = filter_string($_POST["keyword"]);
           if ($result['resultado']) {
               $criteria = $result['datos'];
           } else {
@@ -242,10 +236,10 @@ class controller_products_frontend{
           "limit" => $limit
       );
       set_error_handler('ErrorHandler');
-      $model_path=MODEL_PRODUCTS;
+
       try {
 
-          $resultado = loadModel($model_path, "products_model", "select_like_limit_products", $arrArgument);
+          $resultado = loadModel(MODEL_PRODUCTS, "products_model", "select_like_limit_products", $arrArgument);
 
           } catch (Exception $e) {
 

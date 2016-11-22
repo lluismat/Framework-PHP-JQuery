@@ -31,25 +31,4 @@
                 return $this->$property;
             }
         }
-        /*
-        public function getUserDB() {
-            $var = $this->_userdb;
-            return $var;
-        }
-
-        public function getHostDB() {
-            $var = $this->_hostdb;
-            return $var;
-        }
-
-        public function getPassDB() {
-            $var = $this->_passdb;
-            return $var;
-        }
-
-        public function getDB() {
-            $var = $this->_db;
-            return $var;
-        }
-        */
     }
